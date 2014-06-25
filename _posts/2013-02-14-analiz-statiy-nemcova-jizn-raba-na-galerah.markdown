@@ -3,7 +3,7 @@ layout: post
 title:  "Анализ статьи Немцова \"Жизнь раба на галерах\" "
 date:   2013-02-14 16:50:34
 categories: комментарии
-alias: /2013/02/blog-post.html
+permalink: /2013/02/blog-post.html
 ---
 
 ![](/images/posts/analiz-nemcov/cover.jpg)
