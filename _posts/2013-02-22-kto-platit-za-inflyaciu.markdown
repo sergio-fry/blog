@@ -3,6 +3,7 @@ layout: post
 title:  Кто платит за инфляцию?
 date:   2013-02-22 23:46:00
 categories: economics
+alias: /2013/02/kto-platit-za-inflyaciyu.html
 ---
 
 ## Почему деньги чего-то стоят?

@@ -3,6 +3,7 @@ layout: post
 title:  Кто назначает цену на золото?
 date:   2013-04-04 23:46:00
 categories: economics
+alias: /2013/04/kto-naznachaet-cenu-na-zoloto.html
 ---
 
 ![Золото](/images/posts/kto-naznachaet-cenu-na-zoloto.jpeg "Кто назначает цену на золото")
