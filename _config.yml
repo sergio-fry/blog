@@ -3,7 +3,9 @@ title: Сергей Удалов
 email: sergei.udalov@gmail.com
 description: "Конкуренция наций продолжается. Она не останавливалась ни на минуту уже сотни, тысячи лет. И сейчас нации продолжают конкурировать между собой. На чьей стороне ты?"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://www.sergei-udalov.ru"
+github: sergio-fry
+twitter: SergeiUdalov
 
 # Build settings
 markdown: kramdown
