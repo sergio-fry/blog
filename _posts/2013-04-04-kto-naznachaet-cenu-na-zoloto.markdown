@@ -4,6 +4,8 @@ title:  Кто назначает цену на золото?
 date:   2013-04-04 23:46:00
 categories: economics
 alias: /2013/04/kto-naznachaet-cenu-na-zoloto.html
+hypercommentsHref: "sergei-udalov.ru/2013/04/kto-naznachaet-cenu-na-zoloto.html"
+tags: экономика, золото, банки, финансовая система
 ---
 
 ![Золото](/images/posts/kto-naznachaet-cenu-na-zoloto.jpeg "Кто назначает цену на золото")
