@@ -2,8 +2,8 @@
 layout: post
 title:  "Анализ статьи Немцова \"Жизнь раба на галерах\" "
 date:   2013-02-14 16:50:34
-categories: комментарии
-permalink: /2013/02/blog-post.html
+categories: comments
+hypercommentsHref: "sergei-udalov.ru/2013/02/blog-post.html"
 ---
 
 ![](/images/posts/analiz-nemcov/cover.jpg)
