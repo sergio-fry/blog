@@ -5,7 +5,7 @@ date:   2013-02-22 23:46:00
 categories: economics
 alias: /2013/02/kto-platit-za-inflyaciyu.html
 hypercommentsHref: "sergei-udalov.ru/2013/02/kto-platit-za-inflyaciyu.html"
-tags: экономика, банки, финансовая система, ФРС, деньги
+tags: экономика, банки, финансовая система, ФРС, деньги, инфляция
 ---
 
 ## Почему деньги чего-то стоят?

@@ -3,10 +3,22 @@ layout: default
 ---
 <div class="post">
 
+  <link href="/css/toc.css" media="all" rel="stylesheet" />
+
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <p class="meta">{{ page.date | date: "%-d.%m.%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+    {% if page.tags.size > 0 %}
+      <br />
+      <p class="tags"><span class="name">Ключевые слова:</span> <span class="tags">{{ page.tags | join " " }}</span></p>
+    {% endif %}
+
   </header>
+
+  <div id="toc-container" style="display: none">
+    <div id="toc"></div>
+  </div>
 
   <article class="post-content">
   {{ content }}
@@ -14,4 +26,20 @@ layout: default
 
   {% include hypercomments.html href=page.hypercommentsHref %}
 
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/toc.min.js"></script>
+
+  <script type="text/javascript">
+    var article_length = $(".post-content").text().length;
+
+    if(article_length > 2200) {
+      $("#toc-container").show();
+      $("#toc").toc({
+        'selectors': 'h2,h3',
+        'container': '.post-content'
+      });
+
+    }
+    
+  </script>
 </div>

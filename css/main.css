@@ -181,6 +181,8 @@ a:visited { color: #205caa; }
   margin-top: 5px;
 }
 
+.post-header .tags { color: #333 }
+
 .post-content { margin: 0 0 30px; }
 
 .post-content > * { margin: 20px 0; }
