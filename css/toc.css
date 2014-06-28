@@ -1,6 +1,7 @@
 #toc {
   border: 1px dotted #aaa;
-  width: 50%;
+  width: 100%;
+  max-width: 500px;
   background: #eee;
 }
 
