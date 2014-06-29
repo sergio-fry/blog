@@ -52,6 +52,9 @@ a:visited { color: #205caa; }
   height: 120px;
   background: url('/images/avatar_sm.jpeg');
   float: left;
+  border: 1px solid #eee;
+  border-radius: 60px;
+  margin-right: 40px;
 }
 
 .site-title,
