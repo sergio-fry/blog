@@ -234,6 +234,14 @@ a:visited { color: #205caa; }
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
+.post-content table { border-collapse: collapse;}
+.post-content table,th,td {
+  border: 1px solid #aeaeae;
+
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
