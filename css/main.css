@@ -61,13 +61,14 @@ a:visited { color: #205caa; }
 .site-title:hover,
 .site-title:visited {
   display: block;
-  color: #333;
-  font-size: 26px;
+  color: #000;
+  font-size: 36px;
   letter-spacing: -1px;
   float: left;
   line-height: 120px;
   position: relative;
   z-index: 1;
+  text-decoration: none;
 }
 
 .site-nav {
