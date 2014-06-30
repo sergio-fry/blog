@@ -51,7 +51,7 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="post" itemscope  itemtype="http://schema.org/BlogPosting">
+      <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <!-- Google Authorship and Publisher Markup -->
 <link rel="author" href="https://plus.google.com/u/0/+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%D0%A3%D0%B4%D0%B0%D0%BB%D0%BE%D0%B2/posts"/>
 <link rel="publisher" href=”https://plus.google.com/u/0/+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%D0%A3%D0%B4%D0%B0%D0%BB%D0%BE%D0%B2"/>
@@ -82,22 +82,18 @@
   <meta itemprop="image" content="http://www1.sergei-udalov.ru/images/avatar_md.jpeg" />
   <meta itemprop="description" content="" />
 
-  <link href="/css/toc.css" media="all" rel="stylesheet" />
+  <meta itemprop="image" content="http://www1.sergei-udalov.ru/images/avatar_md.jpeg" />
 
   <header class="post-header">
     <h1 itemprop="name">Кто платит за инфляцию?</h1>
-    <p class="meta">23.02.2013</p>
-
-    
-      <br />
-      <p class="tags"><span class="name">Ключевые слова:</span> <span class="tags" itemprop="keywords">экономика, банки, финансовая система, ФРС, деньги, инфляция</span></p>
-    
-
   </header>
+
+  <link href="/css/toc.css" media="all" rel="stylesheet" />
 
   <div id="toc-container" style="display: none">
     <div id="toc"></div>
   </div>
+
 
   <article class="post-content" itemprop="articleBody">
   <h2 id="section">Почему деньги чего-то стоят?</h2>
@@ -134,7 +130,32 @@
 </ul>
 
 
+
+<div style="text-align: center; padding: 50px 0px 50px 0px; border: dotted 1px #888 ">
+
+  <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=sergei-udalov', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Уведомить о новой статье по email:<br /> <input type="text" placeholder="Ваш email" style="width:140px" name="email"/><input type="hidden" value="sergei-udalov" name="uri"/> <input type="hidden" name="loc" value="ru_RU"/> <input type="submit" value="Подписаться" /></form>
+
+</div>
+
+
   </article>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/toc.min.js"></script>
+
+
+  <script type="text/javascript">
+    var article_length = $(".post-content").text().length;
+
+    if(article_length > 2200) {
+      $("#toc-container").show();
+      $("#toc").toc({
+        'selectors': 'h2,h3',
+        'container': '.post-content'
+      });
+    }
+  </script>
+
 
   <div id="hypercomments_widget"></div>
 <script type="text/javascript">
@@ -160,30 +181,7 @@ s.parentNode.insertBefore(hcc, s.nextSibling);
 </script>
 <a href="http://hypercomments.com" class="hc-link" title="comments widget">технология комментариев HyperComments</a>
 
-
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/toc.min.js"></script>
-
-  <script type="text/javascript">
-    var article_length = $(".post-content").text().length;
-
-    if(article_length > 2200) {
-      $("#toc-container").show();
-      $("#toc").toc({
-        'selectors': 'h2,h3',
-        'container': '.post-content'
-      });
-
-    }
-    
-  </script>
 </div>
-<div style="text-align: center; padding: 50px 0px 50px 0px; border: dotted 1px #888 ">
-
-  <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=sergei-udalov', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Уведомить о новой статье по email:<br /> <input type="text" placeholder="Ваш email" style="width:140px" name="email"/><input type="hidden" value="sergei-udalov" name="uri"/> <input type="hidden" name="loc" value="ru_RU"/> <input type="submit" value="Подписаться" /></form>
-
-</div>
-
 
       </div>
     </div>

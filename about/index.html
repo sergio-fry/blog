@@ -88,6 +88,13 @@
     <h1 itemprop="name">Обо мне</h1>
   </header>
 
+  <link href="/css/toc.css" media="all" rel="stylesheet" />
+
+  <div id="toc-container" style="display: none">
+    <div id="toc"></div>
+  </div>
+
+
   <article class="post-content" itemprop="articleBody">
   <p><img src="/images/avatar_md.jpeg" alt="Сергей Удалов" title="Сергей Удалов" /></p>
 
@@ -200,6 +207,47 @@
 <p>После окончания института я начал работать программистом, чем занимаюсь до сих пор. Женился в 2013 году на Юлии.</p>
 
   </article>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/toc.min.js"></script>
+
+
+  <script type="text/javascript">
+    var article_length = $(".post-content").text().length;
+
+    if(article_length > 2200) {
+      $("#toc-container").show();
+      $("#toc").toc({
+        'selectors': 'h2,h3',
+        'container': '.post-content'
+      });
+    }
+  </script>
+
+
+  <div id="hypercomments_widget"></div>
+<script type="text/javascript">
+_hcwp = window._hcwp || [];
+_hcwp.push({
+  widget:"Stream",
+  
+    href: "sergei-udalov.ru/p/blog-page.html",
+  
+  widget_id: 14320
+});
+
+
+(function() {
+if("HC_LOAD_INIT" in window)return;
+HC_LOAD_INIT = true;
+var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/14320/"+lang+"/widget.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hcc, s.nextSibling);
+})();
+</script>
+<a href="http://hypercomments.com" class="hc-link" title="comments widget">технология комментариев HyperComments</a>
 
 </div>
 
