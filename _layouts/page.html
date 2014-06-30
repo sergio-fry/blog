@@ -15,8 +15,33 @@ layout: default
     <h1 itemprop="name">{{ page.title }}</h1>
   </header>
 
+  <link href="/css/toc.css" media="all" rel="stylesheet" />
+
+  <div id="toc-container" style="display: none">
+    <div id="toc"></div>
+  </div>
+
+
   <article class="post-content" itemprop="articleBody">
   {{ content }}
   </article>
 
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/toc.min.js"></script>
+
+
+  <script type="text/javascript">
+    var article_length = $(".post-content").text().length;
+
+    if(article_length > 2200) {
+      $("#toc-container").show();
+      $("#toc").toc({
+        'selectors': 'h2,h3',
+        'container': '.post-content'
+      });
+    }
+  </script>
+
+
+  {% include hypercomments.html href=page.hypercommentsHref %}
 </div>

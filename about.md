@@ -2,6 +2,7 @@
 layout: page
 title: Обо мне
 permalink: /about/
+hypercommentsHref: sergei-udalov.ru/p/blog-page.html
 ---
 
 
