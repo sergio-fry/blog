@@ -6,6 +6,7 @@ categories: comments
 alias: /2014/03/obzor-knigi-e-gaydara-gibel-imperii.html
 hypercommentsHref: "sergei-udalov.ru/2014/03/obzor-knigi-e-gaydara-gibel-imperii.html"
 tags: СССР, коммунизм, экономика, Егор Гайдар
+imageUrl: /images/posts/gibel-imperii-gaidara/gibel-imperii.jpeg
 ---
 
 ![Гибель империи Гайдара](/images/posts/gibel-imperii-gaidara/gibel-imperii.jpeg "Гибель империи Гайдара")

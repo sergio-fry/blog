@@ -6,6 +6,7 @@ categories: comments
 hypercommentsHref: "sergei-udalov.ru/2013/02/blog-post.html"
 alias: /2013/02/blog-post.html
 tags: Немцов, оппозиция, комментарии, Путин
+imageUrl: /images/posts/analiz-nemcov/cover.jpg
 ---
 
 ![](/images/posts/analiz-nemcov/cover.jpg)

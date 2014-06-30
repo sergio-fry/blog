@@ -4,24 +4,6 @@ title: Обо мне
 permalink: /about/
 ---
 
-<div itemscope itemtype="http://schema.org/Person" style="display:none">
-  <meta itemprop="name" content="Сергей Удалов" />
-  <meta itemprop="url" content="http://www.sergei-udalov.ru/about" />
-  <meta content="{{ '/images/avatar_lg.jpeg' | prepend: site.url }}" itemprop="image" />
-  <meta itemprop="jobTitle" content="Программист" />
-
-  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <span itemprop="addressLocality">Электроугли</span>,
-    <span itemprop="addressRegion">Россия, МО</span>
-  </div>
-
-  <meta itemprop="telephone" content="+7 (916) 6272658" />
-  <meta content="sergei.udalov@gmail.com" itemprop="email" />
-
-  <meta itemprop="birthDate" content="1985-05-05" />
-  <meta itemprop="gender" content="male" />
-  <meta itemprop="description" content="Родился в 1985 году,  в городе Пушкино (МО). Окончил факультет "прикладной математики и физики" Московского Авиационного Института в 2008 году по специальности 'программирование'. Я люблю футбол и играю в районном чемпионате. На жизнь зарабатываю программированием. Интересуюсь физикой, историей, музыкой и политикой." />
-</div>
 
 ![Сергей Удалов](/images/avatar_md.jpeg "Сергей Удалов")
 
