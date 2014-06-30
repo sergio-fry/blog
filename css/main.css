@@ -173,6 +173,8 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.posts .comments_link a{ color: black; text-decoration: none }
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -424,3 +426,4 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
