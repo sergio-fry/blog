@@ -11,8 +11,20 @@ layout: default
 
   <meta itemprop="image" content="{% if page.imageUrl %}{{ page.imageUrl | prepend: site.url }}{% else %}{{ '/images/avatar_md.jpeg' | prepend: site.url }}{% endif %}" />
 
+  <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
   <header class="post-header">
     <h1 itemprop="name">{{ page.title }}</h1>
+
+    <span class="meta" style="float: left; padding-right: 30px">{{ page.date | date: "%-d.%m.%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }} {% endif %}</span>
+    <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,lj,odnoklassniki,gplus,moimir,yaru,moikrug"></div> 
+
+    {% if page.tags.size > 0 %}
+    <br />
+    <p class="tags"><span class="name">Ключевые слова:</span> <span class="tags" itemprop="keywords">{{ page.tags | join " " }}</span></p>
+    {% endif %}
+
+
   </header>
 
   <link href="/css/toc.css" media="all" rel="stylesheet" />
@@ -25,6 +37,9 @@ layout: default
   <article class="post-content" itemprop="articleBody">
   {{ content }}
   </article>
+
+  <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,gplus,moimir,yaru,moikrug" data-yashareTheme="counter"></div> 
+
 
   <script src="/js/jquery.min.js"></script>
   <script src="/js/toc.min.js"></script>
@@ -45,3 +60,5 @@ layout: default
 
   {% include hypercomments.html href=page.hypercommentsHref %}
 </div>
+
+{% include subscribe.html %}

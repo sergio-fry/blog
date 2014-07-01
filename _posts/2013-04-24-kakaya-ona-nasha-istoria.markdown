@@ -3,7 +3,7 @@ layout: post
 title:  Какая она, наша история?
 date:   2013-04-24 00:00:00
 categories: histroy
-alias: /2013/04/kakaya-ona-nash-istoriya.html
+permalink: /2013/04/kakaya-ona-nash-istoriya.html
 hypercommentsHref: "sergei-udalov.ru/2013/04/kakaya-ona-nash-istoriya.html"
 tags: история, мифы, образование, Россия, татаро-монгольское нашествие, Древний Египет, Троянская война, Скалигер, катапульты, древние машины
 description: Наша история хранит много загадок, предлагаю Вашему вниманию некоторые из них.

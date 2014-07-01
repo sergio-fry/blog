@@ -3,7 +3,7 @@ layout: post
 title:  10 интересных сведений о татаро-монгольском нашествии, которых вы не знали
 date:   2013-09-23 00:00:00
 categories: histroy
-alias: /2013/09/10.html
+permalink: /2013/09/10.html
 hypercommentsHref: "sergei-udalov.ru/2013/09/10.html"
 tags: история, мифы, образование, Россия, татаро-монгольское нашествие
 ---

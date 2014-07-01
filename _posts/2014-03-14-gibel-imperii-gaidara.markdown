@@ -3,7 +3,7 @@ layout: post
 title: Обзор книги Е. Гайдара «Гибель империи» 
 date: 2014-03-14 00:00:00
 categories: comments
-alias: /2014/03/obzor-knigi-e-gaydara-gibel-imperii.html
+permalink: /2014/03/obzor-knigi-e-gaydara-gibel-imperii.html
 hypercommentsHref: "sergei-udalov.ru/2014/03/obzor-knigi-e-gaydara-gibel-imperii.html"
 tags: СССР, коммунизм, экономика, Егор Гайдар
 imageUrl: /images/posts/gibel-imperii-gaidara/gibel-imperii.jpeg

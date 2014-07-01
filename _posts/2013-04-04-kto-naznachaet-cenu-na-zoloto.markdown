@@ -3,7 +3,7 @@ layout: post
 title:  Кто назначает цену на золото?
 date:   2013-04-04 23:46:00
 categories: economics
-alias: /2013/04/kto-naznachaet-cenu-na-zoloto.html
+permalink: /2013/04/kto-naznachaet-cenu-na-zoloto.html
 hypercommentsHref: "sergei-udalov.ru/2013/04/kto-naznachaet-cenu-na-zoloto.html"
 tags: экономика, золото, банки, финансовая система
 description: Цена на золото в международной экономике устанавливается не рыночным механизмом, а сговором нескольких банков

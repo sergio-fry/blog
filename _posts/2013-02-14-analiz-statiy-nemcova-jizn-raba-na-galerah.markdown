@@ -4,7 +4,7 @@ title:  "Анализ статьи Немцова \"Жизнь раба на г�
 date:   2013-02-14 16:50:34
 categories: comments
 hypercommentsHref: "sergei-udalov.ru/2013/02/blog-post.html"
-alias: /2013/02/blog-post.html
+permalink: /2013/02/blog-post.html
 tags: Немцов, оппозиция, комментарии, Путин
 imageUrl: /images/posts/analiz-nemcov/cover.jpg
 ---
