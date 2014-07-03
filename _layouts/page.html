@@ -1,6 +1,8 @@
 ---
 layout: compact
 ---
+<script src="/js/jquery.min.js"></script>
+
 <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
   {% include author.html %}
 
@@ -35,12 +37,13 @@ layout: compact
   {{ content }}
   </article>
 
-  <br />
-  <script type="text/javascript" src="/js/orphus.js"></script>
-  <a href="http://www.orphus.ru" id="orphus" target="_blank"><img alt="Система Orphus" src="/images/orphus.gif" border="0" width="257" height="48" /></a>
+  {% if page.disableOrphus == null %}
+    <br />
+    <script type="text/javascript" src="/js/orphus.js"></script>
+    <a href="http://www.orphus.ru" id="orphus" target="_blank"><img alt="Система Orphus" src="/images/orphus.gif" border="0" width="257" height="48" /></a>
+  {% endif %}
 
 
-  <script src="/js/jquery.min.js"></script>
   <script src="/js/toc.min.js"></script>
 
 
@@ -57,7 +60,9 @@ layout: compact
   </script>
 
 
-  {% include hypercomments.html href=page.hypercommentsHref %}
+  {% if page.disableComments == null %}
+    {% include hypercomments.html href=page.hypercommentsHref %}
+  {% endif %}
 </div>
 
 {% include subscribe.html %}
