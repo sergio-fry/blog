@@ -102,6 +102,7 @@ a:visited { color: #205caa; }
 
 .site-header-compact .page-link {
   font-size: 16px;
+  margin: 0px 0px 0px 20px;
 }
 
 .social_links {  white-space: nowrap; }
