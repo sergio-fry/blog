@@ -104,6 +104,15 @@ a:visited { color: #205caa; }
   font-size: 16px;
 }
 
+.social_links {  white-space: nowrap; }
+.social_links a { color: black; }
+.social_links span { padding-right: 10px; }
+.fa-skype { color: #00a8e5 }
+.fa-facebook-square { color: #44619d }
+.fa-vk { color: #54769a }
+.fa-twitter { color: #55acee }
+.fa-youtube-play { color: #db2625 }
+
 /* Site footer */
 
 .site-footer {
