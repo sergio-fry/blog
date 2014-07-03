@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Кто назначает цену на золото?</title>
+    <title>Поиск</title>
 
     <meta name="viewport" content="width=device-width">
 
@@ -79,21 +79,18 @@
 
 
 
-  <meta itemprop="dateCreated" content="2013-04-05" />
+  <meta itemprop="dateCreated" content="" />
   <meta itemprop="dateModified" content="" />
   <meta itemprop="image" content="http://www.sergei-udalov.ru/images/avatar_md.jpeg" />
-  <meta itemprop="description" content="Цена на золото в международной экономике устанавливается не рыночным механизмом, а сговором нескольких банков" />
+  <meta itemprop="description" content="" />
 
   <meta itemprop="image" content="http://www.sergei-udalov.ru/images/avatar_md.jpeg" />
 
   <header class="post-header">
-    <h1 itemprop="name">Кто назначает цену на золото?</h1>
+    <h1 itemprop="name">Поиск</h1>
 
-    <span class="meta">5.04.2013</span>
+    <span class="meta"></span>
 
-    
-    <br />
-    <p class="tags"><span class="name">Ключевые слова:</span> <span class="tags" itemprop="keywords">экономика, золото, банки, финансовая система</span></p>
     
 
 
@@ -107,40 +104,30 @@
 
 
   <article class="post-content" itemprop="articleBody">
-  <p><img src="/images/posts/kto-naznachaet-cenu-na-zoloto.jpeg" alt="Золото" title="Кто назначает цену на золото" /></p>
+  <div id="sp-search">
+  <input type="text" class="sp-query" placeholder="введите поисковый зпрос" value="" /> <input type="submit" value="Найти" class="sp-find-button" />
+  <span class="sp-status"></span>
+  <br />
+  <span class="sp-results"></span>
+</div>
 
-<p>Сама постановка вопроса довольно странная. Как это “назначает”? Ведь в условиях свободного рынка цена должна устанавливаться сама спросом и предложением.</p>
+<script type="text/javascript" src="http://svoy-poisk.sergei-udalov.ru/js/search.js"></script>
 
-<p>Оказывается не все в современном капиталистическом мире может определяться спросом и предложением напрямую. Например, цена на золото определяется 5 английскими банками: 2 раза в день представители банка созваниваются по конференц связи и назначают цену на золото. Причем используется эта цена во всем мире! В том числе и наш Центральный банк берет эту цену и вывешивает на сайте. Все биржи мира.</p>
+<script type="text/javascript">
+  var search;
 
-<p>Вот, кстати, список этих банков:</p>
+  search = new sp_Poisk({ sitemap_url: "http://www.sergei-udalov.ru/sitemap.xml", el: "#sp-search" });
 
-<ol>
-  <li>Scotia Mocatta;</li>
-  <li>HSBC;</li>
-  <li>Deutsche Bank;</li>
-  <li>Societe Generale;</li>
-  <li>Barclays Capital.</li>
-</ol>
+  jQuery("#sp-search .sp-find-button").click(function() {
+    var q = jQuery("#sp-search .sp-query").val();
+    search.find(q);
+  });
 
-<p>В таком случае стоит задуматься, насколько свободен этот наш “свободный рынок”. И кто правит баллом в таком случае?</p>
-
-<p>А что Вы думаете?</p>
-
-<h2 id="section">Источники</h2>
-
-<ul>
-  <li><a href="http://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D1%84%D0%B8%D0%BA%D1%81%D0%B8%D0%BD%D0%B3">http://ru.wikipedia.org</a></li>
-</ul>
-
+</script>
 
 
   </article>
 
-  
-    <br />
-    <script type="text/javascript" src="/js/orphus.js"></script>
-    <a href="http://www.orphus.ru" id="orphus" target="_blank"><img alt="Система Orphus" src="/images/orphus.gif" border="0" width="257" height="48" /></a>
   
 
 
@@ -159,32 +146,6 @@
     }
   </script>
 
-
-  
-    <a name="comments"></a>
-<div id="hypercomments_widget"></div>
-<script type="text/javascript">
-_hcwp = window._hcwp || [];
-_hcwp.push({
-  widget:"Stream",
-  
-    href: "sergei-udalov.ru/2013/04/kto-naznachaet-cenu-na-zoloto.html",
-  
-widget_id: 14320
-});
-
-
-(function() {
-if("HC_LOAD_INIT" in window)return;
-HC_LOAD_INIT = true;
-var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/14320/"+lang+"/widget.js";
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hcc, s.nextSibling);
-})();
-</script>
-<a href="http://hypercomments.com" class="hc-link" title="comments widget">технология комментариев HyperComments</a>
 
   
 </div>
