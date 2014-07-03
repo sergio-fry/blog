@@ -49,11 +49,11 @@ a:visited { color: #205caa; }
 }
 
 .site-header  .logo-image {
-  width: 120px;
-  height: 120px;
-  background: url('/images/avatar_sm.jpeg');
+  width: 200px;
+  height: 200px;
+  background: url('/images/avatar_md.jpeg');
   border: 1px solid #eee;
-  border-radius: 60px;
+  border-radius: 100px;
   margin-top: 80px;
 }
 .site-header-compact  .logo-image {
