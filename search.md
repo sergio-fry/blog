@@ -8,10 +8,10 @@ disableComments: true
 
 
 <div id="sp-search">
-  <input type="text" class="sp-query" placeholder="введите поисковый зпрос" value="" /> <input type="submit" value="Найти" class="sp-find-button" />
+  <input type="text" class="sp-query" value="" /> <input type="submit" value="Найти" class="sp-find-button" />
   <span class="sp-status"></span>
   <br />
-  <span class="sp-results"></span>
+  <div class="sp-results" style="min-height: 200px"></div>
 </div>
 
 <script type="text/javascript" src="http://svoy-poisk.sergei-udalov.ru/js/search.js"></script>
