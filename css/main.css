@@ -52,7 +52,7 @@ a:visited { color: #205caa; }
   width: 200px;
   height: 200px;
   background: url('/images/avatar_md.jpeg');
-  border: 1px solid #eee;
+  border: 1px solid #bcbcbc;
   border-radius: 100px;
   margin-top: 80px;
 }
@@ -112,6 +112,7 @@ a:visited { color: #205caa; }
 .fa-vk { color: #54769a }
 .fa-twitter { color: #55acee }
 .fa-youtube-play { color: #db2625 }
+.fa-rss-square { color: orange }
 
 /* Site footer */
 
@@ -276,6 +277,7 @@ a:visited { color: #205caa; }
   padding-left: 8px;
   padding-right: 8px;
 }
+table.no-border, .no-border th, .no-border td { border: 0px; }
 
 .post pre,
 .post code {
