@@ -8,12 +8,12 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
         <p>{{ post.description }}</p>
 
         <div class="comments_link">
-          <a href="{% if post.hypercommentsHref %}http://{{ post.hypercommentsHref}}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}#comments"><i class="fa fa-comments-o"></i></a>
-          <a class="comments_counter" href="{% if post.hypercommentsHref %}http://{{ post.hypercommentsHref}}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}#comments"></a>
+          <a href="{{ post.url }}#comments"><i class="fa fa-comments-o"></i></a>
+          <a class="comments_counter" href="{% if post.hypercommentsHref %}http://{{ post.hypercommentsHref}}{% else %}{{ post.url | prepend: site.url }}{% endif %}#comments"></a>
         </div>
       </li>
     {% endfor %}
