@@ -2,7 +2,7 @@
 layout: post
 title:  Кто платит за инфляцию?
 date:   2013-02-22 23:46:00
-categories: economics
+categories: политика
 permalink: /2013/02/kto-platit-za-inflyaciyu.html
 hypercommentsHref: "sergei-udalov.ru/2013/02/kto-platit-za-inflyaciyu.html"
 tags: экономика, банки, финансовая система, ФРС, деньги, инфляция

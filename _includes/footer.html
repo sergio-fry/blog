@@ -7,7 +7,7 @@
       <div class="pages">
         {% for page in site.pages %}
           {% if page.title != null %}
-            <a class="page-link" style="color:black" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link capitalize" style="color:black" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             <br />
           {% endif %}
         {% endfor %}

@@ -2,7 +2,7 @@
 
 export MESSAGE=`cat $1`
 
-jekyll build
+bundle exec jekyll build
 cd _site
 git add *
 

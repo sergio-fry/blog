@@ -2,7 +2,7 @@
 layout: post
 title: Все пропало, или ответ на статью “калькулятор против Путина - 2” 
 date: 2013-12-23 00:00:00
-categories: comments
+categories: политика
 permalink: /2013/12/vse-propalo-ili-otvet-na-statyu-kalkulyator-protiv-putina-2.html
 hypercommentsHref: "sergei-udalov.ru/2013/12/vse-propalo-ili-otvet-na-statyu-kalkulyator-protiv-putina-2.html"
 tags: экономика, мифы, Россия, Олимпиада в Сочи, Великобритания, Европейский союз, кризис, Международный валютный фонд, США, федеральная резервная система

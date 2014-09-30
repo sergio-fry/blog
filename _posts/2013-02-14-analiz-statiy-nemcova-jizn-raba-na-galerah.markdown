@@ -2,7 +2,7 @@
 layout: post
 title:  "Анализ статьи Немцова \"Жизнь раба на галерах\""
 date:   2013-02-14 16:50:34
-categories: comments
+categories: политика
 hypercommentsHref: "sergei-udalov.ru/2013/02/blog-post.html"
 permalink: /2013/02/blog-post.html
 tags: Немцов, оппозиция, комментарии, Путин

@@ -10,31 +10,10 @@ layout: default
         <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
         <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
         <p>{{ post.description }}</p>
-
-        <div class="comments_link">
-          <a href="{{ post.url }}#comments"><i class="fa fa-comments-o"></i></a>
-          <a class="comments_counter" href="{% if post.hypercommentsHref %}http://{{ post.hypercommentsHref}}{% else %}{{ post.url | prepend: site.url }}{% endif %}#comments"></a>
-        </div>
       </li>
     {% endfor %}
   </ul>
 
   {% include subscribe.html %}
-
-
-  <script type="text/javascript">
-  var WIDGET_ID = {{ site.hypercommentsId }};
-  _hcwp = window._hcwp || [];
-  _hcwp.push({widget:"Bloggerstream", widget_id: WIDGET_ID, selector: ".comments_counter", label: "{"+"%COUNT%"+"}" });
-  (function() {
-   if("HC_LOAD_INIT" in window)return;
-   HC_LOAD_INIT = true;
-   var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage ||  "ru").substr(0, 2).toLowerCase();
-   var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-   hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/"+WIDGET_ID+"/"+lang+"/widget.js";
-   var s = document.getElementsByTagName("script")[0];
-   s.parentNode.insertBefore(hcc, s.nextSibling);
-   })();
-  </script>
 
 </div>

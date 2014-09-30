@@ -2,7 +2,7 @@
 layout: post
 title: О геополитике
 date: 2014-02-13 00:00:00
-categories: geopolitics
+categories: политика
 permalink: /2014/02/geopolitika-chast-1-borba-mezhdu-narodami.html
 hypercommentsHref: "sergei-udalov.ru/2014/02/geopolitika-chast-1-borba-mezhdu-narodami.html"
 tags: геополитика

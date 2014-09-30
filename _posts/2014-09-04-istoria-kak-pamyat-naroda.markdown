@@ -2,7 +2,9 @@
 layout: post
 title: История как память народа или почему важно знать историю
 date: 2014-09-04 00:00:00
-categories: history
+categories: политика
+permalink: history/2014/09/04/istoria-kak-pamyat-naroda/
+hypercommentsHref: "sergei-udalov.ru/history/2014/09/04/istoria-kak-pamyat-naroda/"
 tags: история, Россия, СМИ, информция
 imageUrl: 
 ---
