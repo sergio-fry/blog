@@ -21,6 +21,11 @@
   display: block;
 }
 
+#toc a:hover {
+  background: grey;
+  color: white;
+}
+
 #toc .toc-h2 {
   font-size: 18px;
 
