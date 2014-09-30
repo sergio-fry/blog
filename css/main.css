@@ -21,9 +21,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;
 }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: blue; text-decoration: underline; }
+a:hover   { color: #000;  }
+a:visited { color: purple; }
 
 /* Utility */
 
