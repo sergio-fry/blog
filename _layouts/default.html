@@ -8,9 +8,23 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
+      <center>
+        <table border="0px" class="no-border">
+          <tr>
+            <td valign="top">
+              <div class="wrap">
+              {{ content }}
+              </div>
+            </td>
+            <td valign="top">
+              <div id="sidebar">
+                <a class="twitter-timeline" href="https://twitter.com/SergeiUdalov" data-widget-id="373367129795342336">Твиты пользователя @SergeiUdalov</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </center>
     </div>
 
     {% include footer.html %}
