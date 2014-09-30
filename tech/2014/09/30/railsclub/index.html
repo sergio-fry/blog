@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Кто назначает цену на золото?</title>
+    <title>Rails Club 2014. Как все прошло</title>
 
     <meta name="viewport" content="width=device-width">
 
@@ -91,21 +91,21 @@
 
 
 
-  <meta itemprop="dateCreated" content="2013-04-05" />
+  <meta itemprop="dateCreated" content="2014-09-30" />
   <meta itemprop="dateModified" content="" />
   <meta itemprop="image" content="http://www.sergei-udalov.ru/images/avatar_md.jpeg" />
-  <meta itemprop="description" content="Цена на золото в международной экономике устанавливается не рыночным механизмом, а сговором нескольких банков" />
+  <meta itemprop="description" content="" />
 
   <meta itemprop="image" content="http://www.sergei-udalov.ru/images/avatar_md.jpeg" />
 
   <header class="post-header">
-    <h1 itemprop="name">Кто назначает цену на золото?</h1>
+    <h1 itemprop="name">Rails Club 2014. Как все прошло</h1>
 
-    <span class="meta">5.04.2013</span>
+    <span class="meta">30.09.2014</span>
 
     
     <br />
-    <p class="tags"><span class="name">Ключевые слова:</span> <span class="tags" itemprop="keywords">экономика, золото, банки, финансовая система</span></p>
+    <p class="tags"><span class="name">Ключевые слова:</span> <span class="tags" itemprop="keywords">Rails Club, ruby</span></p>
     
 
 
@@ -119,31 +119,103 @@
 
 
   <article class="post-content" itemprop="articleBody">
-  <p><img src="/images/posts/kto-naznachaet-cenu-na-zoloto.jpeg" alt="Золото" title="Кто назначает цену на золото" /></p>
+  <p>На этих выходных сходил с коллегами из SeoPult на ежегодную конференцию <a href="http://railsclub.ru">Rails Club</a>. Встретил много друзей, с которыми работали вместе в других компаниях. Еще я выиграл приз.</p>
 
-<p>Сама постановка вопроса довольно странная. Как это “назначает”? Ведь в условиях свободного рынка цена должна устанавливаться сама спросом и предложением.</p>
+<p><img src="/images/posts/railsclub/prize.jpg" alt="Рубизатор" /></p>
 
-<p>Оказывается не все в современном капиталистическом мире может определяться спросом и предложением напрямую. Например, цена на золото определяется 5 английскими банками: 2 раза в день представители банка созваниваются по конференц связи и назначают цену на золото. Причем используется эта цена во всем мире! В том числе и наш Центральный банк берет эту цену и вывешивает на сайте. Все биржи мира.</p>
+<p>Хочу рассказать о своих впечатлениях о докладах и что я из них вынес.</p>
 
-<p>Вот, кстати, список этих банков:</p>
+<h2 id="writing-fast-ruby---">Writing Fast Ruby. Эрик Майкл-Обер</h2>
 
-<ol>
-  <li>Scotia Mocatta;</li>
-  <li>HSBC;</li>
-  <li>Deutsche Bank;</li>
-  <li>Societe Generale;</li>
-  <li>Barclays Capital.</li>
-</ol>
-
-<p>В таком случае стоит задуматься, насколько свободен этот наш “свободный рынок”. И кто правит баллом в таком случае?</p>
-
-<p>А что Вы думаете?</p>
-
-<h2 id="section">Источники</h2>
+<p>Хорошо, что этот доклад начался с небольшим опозданием: я как раз успел. Эрик рассказал про то, что часто интуиция подводит нас в определении того, какой код на ruby будет быстрее.</p>
 
 <ul>
-  <li><a href="http://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D1%84%D0%B8%D0%BA%D1%81%D0%B8%D0%BD%D0%B3">http://ru.wikipedia.org</a></li>
+  <li>иногда быстрее yield, иногда block</li>
+  <li>не используйте gsub, если достаточно sub или tr</li>
+  <li>не стоит сроить логику на exception-ах, если можно обойтись if/else/case, потому как это медленно</li>
+  <li>если код тормозит, выкинте из него ActiveSupport</li>
 </ul>
+
+<p>И главная рекомендация, которую Эрик дал в самом начале: используйте <a href="https://github.com/evanphx/benchmark-ips">benchmark-ips</a>:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;benchmark/ips&#39;</span>
+
+<span class="no">Benchmark</span><span class="o">.</span><span class="n">ips</span> <span class="k">do</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span>
+  <span class="n">x</span><span class="o">.</span><span class="n">report</span><span class="p">(</span><span class="s2">&quot;addition&quot;</span><span class="p">)</span> <span class="p">{</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="p">}</span>
+
+   <span class="n">x</span><span class="o">.</span><span class="n">report</span><span class="p">(</span><span class="s2">&quot;addition2&quot;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">times</span><span class="o">|</span>
+     <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+
+     <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">times</span>
+       <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span>
+       <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+     <span class="k">end</span>
+   <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
+<p>В отличие от обычного benchmark-а он сам определяет количество итераций, которые нужно прогнать, чтобы сравнить 2 куска кода.</p>
+
+<h2 id="section">Работы с файлами в больших проектах. Кирилл Горин</h2>
+
+<p>Интересный рассказ про то, как это реально работает в Coub. Кирилл обрисовал проблемы, с которыми им пришлось столкнуться. Было интересно.</p>
+
+<h2 id="the-elements-of-style-in-ruby--">The Elements of Style in Ruby. Божидар Бацов</h2>
+
+<p>Во время доклада складывалось ощущение, что <a href="https://github.com/bbatsov">Божидар</a> приехал из негритянского квартала в Болгарии. Зачем-то несколько раз он выразился английским матерком. Видимо, Болгария совсем небольшая страна и похвастаться знанием болгарского английского там было не перед кем.</p>
+
+<p>Что касается самого материала, то была предпринята интересная попытка взглянуть на проблему оформления программного кода с новой стороны.</p>
+
+<p>Кроме этого докладчик анонсировал свою библиотеку <a href="https://github.com/bbatsov/rubocop">Rubocop</a> контроля за оформлением ruby-сода.</p>
+
+<p>Хорошо подойдет для интеграции в CI системы.</p>
+
+<h2 id="section-1">Интеграция всех аспектов разработки в единый процесс. Александр Балашов</h2>
+
+<p>Если одним предложением: используйте CI-системы и pull-реквесты в вашем воркфлоу.</p>
+
+<ul>
+  <li><a href="https://github.com/presidentbeef/brakeman">brakeman</a> – система поиска уязвимостей в Rails-приложении</li>
+  <li><a href="https://codeclimate.com">code climate</a> – анализ качества кода, покрытие тестами</li>
+  <li><a href="https://teatro.io/">teatro.io</a> – staging-сервер для каждого разработчика (использует docker)</li>
+</ul>
+
+<p>Вообще, хорошая идея и у нас в компании настроить проект через <a href="https://www.docker.com/">docker</a>, чтобы каждый разработчик имел одинакувую среду.</p>
+
+<h2 id="ror---">Круглый стол: бизнес логика в ROR приложении. Александр Даниленко</h2>
+
+<p>На доклад опоздал. Если в 2 словах, то: храните логику в правильном месте. Все зависит от ситуации. Кто бы сомневался :)</p>
+
+<h2 id="the-future-of-rack--">The Future of Rack. Аарон Паттерсон</h2>
+
+<p>TODO</p>
+
+<h2 id="big-data--ruby--">Big Data и Ruby. Равиль Байрамкалин</h2>
+
+<p>TODO</p>
+
+<h2 id="section-2">Абстрактные машины во имя добра. Кирилл Тимофеев</h2>
+
+<p>Можно показать котика и.. продолжить терять адутиторию</p>
+
+<h2 id="concurent-systems-in-ruby--">Concurent Systems in Ruby. Ждонас Никлас</h2>
+
+<p>TODO</p>
+
+<h2 id="all-the-little-things--">All The Little Things. Сенди Метц</h2>
+
+<p>TODO</p>
+
+<h2 id="lt-corcery----ruby--">LT: Corcery и паттерны в Ruby. Кирилл Шатров</h2>
+
+<p>TODO</p>
+
+<h2 id="lt-use-case-driven-architecture--">LT: Use Case Driven Architecture. Николай Рыжиков</h2>
+
+<p>TODO</p>
+
+<h2 id="lt-chewy----elastic-search--">LT: Chewy - удобный Elastic Search. Аркадий Забажанов</h2>
+
+<p>TODO</p>
 
 
 
@@ -179,8 +251,6 @@
 _hcwp = window._hcwp || [];
 _hcwp.push({
   widget:"Stream",
-  
-    href: "sergei-udalov.ru/2013/04/kto-naznachaet-cenu-na-zoloto.html",
   
 widget_id: 14320
 });

@@ -7,6 +7,112 @@
     <atom:link href="http://www.sergei-udalov.ru/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Rails Club 2014. Как все прошло</title>
+        <description>&lt;p&gt;На этих выходных сходил с коллегами из SeoPult на ежегодную конференцию &lt;a href=&quot;http://railsclub.ru&quot;&gt;Rails Club&lt;/a&gt;. Встретил много друзей, с которыми работали вместе в других компаниях. Еще я выиграл приз.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/prize.jpg&quot; alt=&quot;Рубизатор&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Хочу рассказать о своих впечатлениях о докладах и что я из них вынес.&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-fast-ruby---&quot;&gt;Writing Fast Ruby. Эрик Майкл-Обер&lt;/h2&gt;
+
+&lt;p&gt;Хорошо, что этот доклад начался с небольшим опозданием: я как раз успел. Эрик рассказал про то, что часто интуиция подводит нас в определении того, какой код на ruby будет быстрее.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;иногда быстрее yield, иногда block&lt;/li&gt;
+  &lt;li&gt;не используйте gsub, если достаточно sub или tr&lt;/li&gt;
+  &lt;li&gt;не стоит сроить логику на exception-ах, если можно обойтись if/else/case, потому как это медленно&lt;/li&gt;
+  &lt;li&gt;если код тормозит, выкинте из него ActiveSupport&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;И главная рекомендация, которую Эрик дал в самом начале: используйте &lt;a href=&quot;https://github.com/evanphx/benchmark-ips&quot;&gt;benchmark-ips&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;benchmark/ips&amp;#39;&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Benchmark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ips&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;addition&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+   &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;addition2&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+     &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;times&lt;/span&gt;
+       &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+       &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;В отличие от обычного benchmark-а он сам определяет количество итераций, которые нужно прогнать, чтобы сравнить 2 куска кода.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;Работы с файлами в больших проектах. Кирилл Горин&lt;/h2&gt;
+
+&lt;p&gt;Интересный рассказ про то, как это реально работает в Coub. Кирилл обрисовал проблемы, с которыми им пришлось столкнуться. Было интересно.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-elements-of-style-in-ruby--&quot;&gt;The Elements of Style in Ruby. Божидар Бацов&lt;/h2&gt;
+
+&lt;p&gt;Во время доклада складывалось ощущение, что &lt;a href=&quot;https://github.com/bbatsov&quot;&gt;Божидар&lt;/a&gt; приехал из негритянского квартала в Болгарии. Зачем-то несколько раз он выразился английским матерком. Видимо, Болгария совсем небольшая страна и похвастаться знанием болгарского английского там было не перед кем.&lt;/p&gt;
+
+&lt;p&gt;Что касается самого материала, то была предпринята интересная попытка взглянуть на проблему оформления программного кода с новой стороны.&lt;/p&gt;
+
+&lt;p&gt;Кроме этого докладчик анонсировал свою библиотеку &lt;a href=&quot;https://github.com/bbatsov/rubocop&quot;&gt;Rubocop&lt;/a&gt; контроля за оформлением ruby-сода.&lt;/p&gt;
+
+&lt;p&gt;Хорошо подойдет для интеграции в CI системы.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;Интеграция всех аспектов разработки в единый процесс. Александр Балашов&lt;/h2&gt;
+
+&lt;p&gt;Если одним предложением: используйте CI-системы и pull-реквесты в вашем воркфлоу.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/presidentbeef/brakeman&quot;&gt;brakeman&lt;/a&gt; – система поиска уязвимостей в Rails-приложении&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeclimate.com&quot;&gt;code climate&lt;/a&gt; – анализ качества кода, покрытие тестами&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teatro.io/&quot;&gt;teatro.io&lt;/a&gt; – staging-сервер для каждого разработчика (использует docker)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вообще, хорошая идея и у нас в компании настроить проект через &lt;a href=&quot;https://www.docker.com/&quot;&gt;docker&lt;/a&gt;, чтобы каждый разработчик имел одинакувую среду.&lt;/p&gt;
+
+&lt;h2 id=&quot;ror---&quot;&gt;Круглый стол: бизнес логика в ROR приложении. Александр Даниленко&lt;/h2&gt;
+
+&lt;p&gt;На доклад опоздал. Если в 2 словах, то: храните логику в правильном месте. Все зависит от ситуации. Кто бы сомневался :)&lt;/p&gt;
+
+&lt;h2 id=&quot;the-future-of-rack--&quot;&gt;The Future of Rack. Аарон Паттерсон&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h2 id=&quot;big-data--ruby--&quot;&gt;Big Data и Ruby. Равиль Байрамкалин&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;Абстрактные машины во имя добра. Кирилл Тимофеев&lt;/h2&gt;
+
+&lt;p&gt;Можно показать котика и.. продолжить терять адутиторию&lt;/p&gt;
+
+&lt;h2 id=&quot;concurent-systems-in-ruby--&quot;&gt;Concurent Systems in Ruby. Ждонас Никлас&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h2 id=&quot;all-the-little-things--&quot;&gt;All The Little Things. Сенди Метц&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h2 id=&quot;lt-corcery----ruby--&quot;&gt;LT: Corcery и паттерны в Ruby. Кирилл Шатров&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h2 id=&quot;lt-use-case-driven-architecture--&quot;&gt;LT: Use Case Driven Architecture. Николай Рыжиков&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h2 id=&quot;lt-chewy----elastic-search--&quot;&gt;LT: Chewy - удобный Elastic Search. Аркадий Забажанов&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 30 Sep 2014 03:16:44 +0400</pubDate>
+        <link>http://www.sergei-udalov.ru/tech/2014/09/30/railsclub/</link>
+        <guid isPermaLink="true">http://www.sergei-udalov.ru/tech/2014/09/30/railsclub/</guid>
+      </item>
+    
+      <item>
         <title>История как память народа или почему важно знать историю</title>
         <description>&lt;h2 id=&quot;section&quot;&gt;Возраст народа&lt;/h2&gt;
 
