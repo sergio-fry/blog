@@ -106,6 +106,10 @@ a:visited { color: purple; }
   letter-spacing: -.5px;
 }
 
+.post-link {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .site-header-compact .page-link {
   font-size: 16px;
   margin: 0px 0px 0px 20px;
