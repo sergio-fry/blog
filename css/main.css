@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;
 }
 
-a         { color: blue; text-decoration: underline; }
-a:hover   { color: #000;  }
+a         { color: blue; }
+a:hover   { color: #000;  text-decoration: underline; }
 a:visited { color: purple; }
 
 /* Utility */
@@ -104,7 +104,6 @@ a:visited { color: purple; }
   color: #727272;
   font-size: 26px;
   letter-spacing: -.5px;
-  text-decoration: underline;
 }
 
 .site-header-compact .page-link {
@@ -288,6 +287,8 @@ a:visited { color: purple; }
   padding-right: 8px;
 }
 table.no-border, .no-border th, .no-border td { border: 0px; }
+
+.post-content a    {  text-decoration: underline; }
 
 .post pre,
 .post code {
