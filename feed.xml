@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Сергей Удалов</title>
-    <description>Здесь я излагаю свое мировоззрение. Меня итересует космология, физика, история и политика. Давайте разбираться и обсуждать.</description>
+    <description>Мои статьи о политике, истории и программировании. Давайте разбираться и обсуждать.</description>
     <link>http://www.sergei-udalov.ru/</link>
     <atom:link href="http://www.sergei-udalov.ru/feed.xml" rel="self" type="application/rss+xml" />
     
