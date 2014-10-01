@@ -8,7 +8,28 @@ hypercommentsHref: sergei-udalov.ru/p/blog-page.html
 
 ![Сергей Удалов](/images/avatar_md.jpeg "Сергей Удалов")
 
-Меня зовут Удалов Сергей Олегович.
+Удалов Сергей Олегович
+
+
+<i class="fa fa-envelope-o"></i> [sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com)
+
+<span><i class="fa fa-skype"></i> mac_jimbo</span>
+
+<span><i class="fa fa-mobile"></i> +79166272658</span>
+
+<i class="fa fa-file-pdf-o"></i> <a href="/public/Sergei_Udalov.pdf">Резюме</a> (420 Кб)
+
+![](http://linkedin.com/favicon.ico) [LinkedIn](https://www.linkedin.com/profile/view?id=60862930&trk=spm_pic)
+
+<div class="social_links"  style="">
+  <span><a href="https://vk.com/r_wilco"><i class="fa fa-vk"></i></a></span>
+  <span><a href="https://twitter.com/SergeiUdalov"><i class="fa fa-twitter"></i></a></span>
+  <span><a href="https://www.facebook.com/sergei.udalov"><i class="fa fa-facebook-square"></i></a></span>
+  <span><a href="http://www.youtube.com/user/neoguy1"><i class="fa fa-youtube-play"></i></a></span>
+  <span><a href="https://github.com/sergio-fry"><i class="fa fa-github"></i></a></span>
+</div>
+
+## Кратко
 
 Родился в 1985 году,  в городе Пушкино (МО). Окончил факультет "прикладной математики и физики" Московского Авиационного Института в 2008 году по специальности "программирование".
 
@@ -19,11 +40,6 @@ hypercommentsHref: sergei-udalov.ru/p/blog-page.html
 Родился в России, мои деды и прадеды жили в России. Постараюсь воспитать своих детей так, чтобы и они считали за счастье жить и умереть на Родине.
 
 [Интернет-ополченец](http://ipolk.ru/profile/SergeyUdalov/), сторонник [национально-освободительного движения](http://www.rusnod.ru/nod3.html).
-
-## Контакты
-
-email: [sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com)
-телефон: +7 916 6272658
 
 
 
