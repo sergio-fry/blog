@@ -37,6 +37,10 @@ a:visited { color: purple; }
   zoom: 1;
 }
 
+.wrap-header, .wrap-footer {
+  min-width: 550px;
+}
+
 
 
 

@@ -16,6 +16,8 @@
 
 &lt;h2 id=&quot;writing-fast-ruby---&quot;&gt;Writing Fast Ruby. Эрик Майкл-Обер&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/eric.jpg&quot; alt=&quot;Eric&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Хорошо, что этот доклад начался с небольшим опозданием: я как раз успел. Эрик рассказал про то, что часто интуиция подводит нас в определении того, какой код на ruby будет быстрее.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -46,9 +48,13 @@
 
 &lt;h2 id=&quot;section&quot;&gt;Работы с файлами в больших проектах. Кирилл Горин&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/kirill.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Интересный рассказ про то, как это реально работает в Coub. Кирилл обрисовал проблемы, с которыми им пришлось столкнуться. Было интересно.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-elements-of-style-in-ruby--&quot;&gt;The Elements of Style in Ruby. Божидар Бацов&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/bojidar.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Во время доклада складывалось ощущение, что &lt;a href=&quot;https://github.com/bbatsov&quot;&gt;Божидар&lt;/a&gt; приехал из негритянского квартала в Болгарии. Зачем-то несколько раз он выразился английским матерком. Видимо, Болгария совсем небольшая страна и похвастаться знанием болгарского английского там было не перед кем.&lt;/p&gt;
 
@@ -59,6 +65,8 @@
 &lt;p&gt;Хорошо подойдет для интеграции в CI системы.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;Интеграция всех аспектов разработки в единый процесс. Александр Балашов&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/alex-inter.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Если одним предложением: используйте CI-системы и pull-реквесты в вашем воркфлоу.&lt;/p&gt;
 
@@ -72,39 +80,132 @@
 
 &lt;h2 id=&quot;ror---&quot;&gt;Круглый стол: бизнес логика в ROR приложении. Александр Даниленко&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/table.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;На доклад опоздал. Если в 2 словах, то: храните логику в правильном месте. Все зависит от ситуации. Кто бы сомневался :)&lt;/p&gt;
+
+&lt;p&gt;Посоветовали книги:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Patterns in Enterprise Software” от Мартина Фаулера&lt;/li&gt;
+  &lt;li&gt;Growing Rails Applications in Practice&lt;/li&gt;
+  &lt;li&gt;Objects on Rails&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;the-future-of-rack--&quot;&gt;The Future of Rack. Аарон Паттерсон&lt;/h2&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/aaron2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Жизнерадостный, содержательный, оставляющий очень живое впечателение доклад и сам докладчик. Ruby-код, картинки животных и самоироничные реплики.&lt;/p&gt;
+
+&lt;p&gt;Аарон рассказал про то, как много объектов участвует даже в простых операциях с участием Rails и как он работает над этим. Еще рассказал про то, какие проблемы есть с запуском тестов с участием ActiveRecord в несколько процессов и какие пути решения есть. Собственно, проблемы возникают, если у вас используются fixtures… Не используйте их! :) Используйте &lt;a href=&quot;https://github.com/thoughtbot/factory_girl&quot;&gt;FactoryGirl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/aaron.jpg&quot; alt=&quot;Аарон Паттерсон на Rails Club 2014&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Еще он рассказал про свое видение Rack и то, как это сейчас. Считает, что нужно разделить rack-модули на 3 типа, а не как сейчас – только один:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;фильтр: добавляет before/after обработчик&lt;/li&gt;
+  &lt;li&gt;“что-то там”: обрабатывает, но не “что-то там”, например сжатие GZIP&lt;/li&gt;
+  &lt;li&gt;обычный rack, как сейчас&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Свое видение отражается в новой библиотеке &lt;a href=&quot;https://github.com/tenderlove/the_metal&quot;&gt;the_metal&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;big-data--ruby--&quot;&gt;Big Data и Ruby. Равиль Байрамкалин&lt;/h2&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;Map и Reduce.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;Абстрактные машины во имя добра. Кирилл Тимофеев&lt;/h2&gt;
 
-&lt;p&gt;Можно показать котика и.. продолжить терять адутиторию&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/meme.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Можно показать котика и.. продолжить терять адутиторию. Кирилл это доказал. Показав целый зоопарк милый зверющек Кирилл не смог скрыть главного: сказать было нечего.&lt;/p&gt;
+
+&lt;p&gt;Было немного теории из лямбда-исчеслений. Никакой новизны, никакой практической нагрузки, никакого ruby! Последнее было смертельно. Все с нетерпением ждали, когда доклад закончится. Вопрос был только 1: “Ты рассказал о том, чем мы пожертвовали, начав писать на ruby?”. &lt;/p&gt;
 
 &lt;h2 id=&quot;concurent-systems-in-ruby--&quot;&gt;Concurent Systems in Ruby. Ждонас Никлас&lt;/h2&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/jonas.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Наглядно про виды конкурентного исполнения ruby-кода, что такое thread-safe и GIL. Автор порекомендовал обратить внимание на библиотеки:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ruby-concurrency/atomic&quot;&gt;Atomic&lt;/a&gt; – thread-safe объекты&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://celluloid.io/&quot;&gt;Celluloid&lt;/a&gt; – Actor-based программирование&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hamstergem/hamster&quot;&gt;Hamster&lt;/a&gt; – набор классов по concurrent ruby&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ruby-concurrency/concurrent-ruby&quot;&gt;Concurent-ruby&lt;/a&gt; – еще один набор классов&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Кроме этого порекомендовал книгу “&lt;a href=&quot;https://pragprog.com/book/jsthreads/working-with-ruby-threads&quot;&gt;Working with Ruby Threads&lt;/a&gt;”.&lt;/p&gt;
 
 &lt;h2 id=&quot;all-the-little-things--&quot;&gt;All The Little Things. Сенди Метц&lt;/h2&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/sendi.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;lt-corcery----ruby--&quot;&gt;LT: Corcery и паттерны в Ruby. Кирилл Шатров&lt;/h2&gt;
+&lt;p&gt;Сенди не смогла приехать живьем и выступала ерез скайп. Она не вставляла котиков и шутки ради шуток, при этом доклад держал в напряжении аудитории до самой развязки. Доклад был построен, как разбор одного случая из жизни программиста (самой Сенди), когда пришлось столкнутся с задачей исправления старого и запутанного метода.&lt;/p&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;Элегантный рефакторинг через тесты. Сразу захотелось что-то зарефаторить у себя в проекте.&lt;/p&gt;
 
-&lt;h2 id=&quot;lt-use-case-driven-architecture--&quot;&gt;LT: Use Case Driven Architecture. Николай Рыжиков&lt;/h2&gt;
+&lt;p&gt;Рекомендации:&lt;/p&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;книга &lt;a href=&quot;http://www.poodr.com/&quot;&gt;Practical Object-Oriented Design in Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/makaroni4/sandi_meter&quot;&gt;SandiMeter&lt;/a&gt; – статический анализатор ruby-кода в соответсвии с правилам Седи&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;lt-chewy----elastic-search--&quot;&gt;LT: Chewy - удобный Elastic Search. Аркадий Забажанов&lt;/h2&gt;
+&lt;h2 id=&quot;sorcery----ruby--&quot;&gt;Sorcery и паттерны в Ruby. Кирилл Шатров&lt;/h2&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/auth.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Попытка рассказать, где хранить бизнес-логику в rails-приложении. Но мы уже знаем, что хранить ее нужно в правильном месте (“right place”). А еще, для того, чтобы перестать быть AcitveRecord-программистом, нужно вместо 1 AR-класса создать еще несколько.&lt;/p&gt;
+
+&lt;p&gt;Докладчик порекомендовал библиотеку для “аутентификенции” &lt;a href=&quot;https://github.com/NoamB/sorcery&quot;&gt;sorcery&lt;/a&gt; и отговаривал от &lt;a href=&quot;https://github.com/plataformatec/devise&quot;&gt;Devise&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-case-driven-architecture--&quot;&gt;Use Case Driven Architecture. Николай Рыжиков&lt;/h2&gt;
+
+&lt;p&gt;Один из лучших докладов конференции. Простым языком, спокойно и содержательно. Надеюсь услышать докладчика с полноформатным выступлением в будущем.&lt;/p&gt;
+
+&lt;h2 id=&quot;chewy----elastic-search--&quot;&gt;Chewy - удобный Elastic Search. Аркадий Забажанов&lt;/h2&gt;
+
+&lt;p&gt;Самый пострадавший о технических сбоев доклад. Презентация никак не заводилась.&lt;/p&gt;
+
+&lt;p&gt;Пользуйтесь для поиска &lt;a href=&quot;http://www.elasticsearch.org/&quot;&gt;Elasticsearch&lt;/a&gt;, потому что это быстро и хорошо. Для ruby используйте библиотеку &lt;a href=&quot;https://github.com/toptal/chewy&quot;&gt;Chewy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;Заключение&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/railsclub/all.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Рекмендованные библиотеки, сервисы и инструменты:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/evanphx/benchmark-ips&quot;&gt;benchmark-ips&lt;/a&gt; – измерение скорости&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bbatsov/rubocop&quot;&gt;Rubocop&lt;/a&gt; – анализатор кода&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/presidentbeef/brakeman&quot;&gt;brakeman&lt;/a&gt; – система поиска уязвимостей в Rails-приложении&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeclimate.com&quot;&gt;code climate&lt;/a&gt; – анализ качества кода, покрытие тестами&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teatro.io/&quot;&gt;teatro.io&lt;/a&gt; – staging-сервер для каждого разработчика (использует docker)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.com/&quot;&gt;docker&lt;/a&gt; – деплой через виртуалки&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thoughtbot/factory_girl&quot;&gt;FactoryGirl&lt;/a&gt; – вместо fixtures для тестов&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tenderlove/the_metal&quot;&gt;the_metal&lt;/a&gt; –  веббиблиотека для построения веб-сервера, новое видение rack&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ruby-concurrency/atomic&quot;&gt;Atomic&lt;/a&gt; – thread-safe объекты&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://celluloid.io/&quot;&gt;Celluloid&lt;/a&gt; – Actor-based программирование&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hamstergem/hamster&quot;&gt;Hamster&lt;/a&gt; – набор классов по concurrent ruby&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ruby-concurrency/concurrent-ruby&quot;&gt;Concurent-ruby&lt;/a&gt; – еще один набор классов&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/makaroni4/sandi_meter&quot;&gt;SandiMeter&lt;/a&gt; – статический анализатор ruby-кода в соответсвии с правилам Седи&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/NoamB/sorcery&quot;&gt;sorcery&lt;/a&gt;  – аутентификенция&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.elasticsearch.org/&quot;&gt;Elasticsearch&lt;/a&gt; – быстрый поиск&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/toptal/chewy&quot;&gt;Chewy&lt;/a&gt; – ruby-библиотека для Elasticsearch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Книги:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://martinfowler.com/articles/enterprisePatterns.html&quot;&gt;Patterns in Enterprise Software&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pragprog.com/book/d-kegrap/growing-rails-applications-in-practice&quot;&gt;Growing Rails Applications in Practice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://objectsonrails.com/&quot;&gt;Objects on Rails&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pragprog.com/book/jsthreads/working-with-ruby-threads&quot;&gt;Working with Ruby Threads&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.poodr.com/&quot;&gt;Practical Object-Oriented Design in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         <pubDate>Tue, 30 Sep 2014 03:16:44 +0400</pubDate>
