@@ -19,7 +19,7 @@ hypercommentsHref: sergei-udalov.ru/p/blog-page.html
 
 <i class="fa fa-file-pdf-o"></i> <a href="/public/Sergei_Udalov.pdf">Резюме</a> (420 Кб)
 
-![](http://linkedin.com/favicon.ico) [LinkedIn](https://www.linkedin.com/profile/view?id=60862930&trk=spm_pic)
+![](http://linkedin.com/favicon.ico) [LinkedIn](https://www.linkedin.com/in/rwilco)
 
 <div class="social_links"  style="">
   <span><a href="https://vk.com/r_wilco"><i class="fa fa-vk"></i></a></span>
