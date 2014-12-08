@@ -86,91 +86,45 @@
 
 
     <div class="page-content">
-      <center>
-        <table border="0px" class="no-border">
-          <tr>
-            <td valign="top">
-              <div class="wrap">
-              <div class="home">
+      <link rel="stylesheet" href="/css/jquery.socialfeed.css">
 
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">30.09.2014</span>
-        <a class="post-link" href="/tech/2014/09/30/railsclub/">Rails Club 2014. Как все прошло</a>
-        <p>На этих выходных сходил с коллегами из SeoPult на ежегодную конференцию RailsClub 2014. Встретил много друзей, с которыми работали вместе в других компаниях. Еще я выиграл приз.</p>
-      </li>
-    
-      <li>
-        <span class="post-date">4.09.2014</span>
-        <a class="post-link" href="/history/2014/09/04/istoria-kak-pamyat-naroda/">История как память народа или почему важно знать историю</a>
-        <p></p>
-      </li>
-    
-      <li>
-        <span class="post-date">14.03.2014</span>
-        <a class="post-link" href="/2014/03/obzor-knigi-e-gaydara-gibel-imperii.html">Обзор книги Е. Гайдара «Гибель империи»</a>
-        <p></p>
-      </li>
-    
-      <li>
-        <span class="post-date">13.02.2014</span>
-        <a class="post-link" href="/2014/02/geopolitika-chast-1-borba-mezhdu-narodami.html">О геополитике</a>
-        <p></p>
-      </li>
-    
-      <li>
-        <span class="post-date">23.12.2013</span>
-        <a class="post-link" href="/2013/12/vse-propalo-ili-otvet-na-statyu-kalkulyator-protiv-putina-2.html">Все пропало, или ответ на статью “калькулятор против Путина - 2”</a>
-        <p></p>
-      </li>
-    
-      <li>
-        <span class="post-date">23.09.2013</span>
-        <a class="post-link" href="/2013/09/10.html">10 интересных сведений о татаро-монгольском нашествии, которых вы не знали</a>
-        <p></p>
-      </li>
-    
-      <li>
-        <span class="post-date">24.04.2013</span>
-        <a class="post-link" href="/2013/04/kakaya-ona-nash-istoriya.html">Какая она, наша история?</a>
-        <p>Наша история хранит много загадок, предлагаю Вашему вниманию некоторые из них.</p>
-      </li>
-    
-      <li>
-        <span class="post-date">5.04.2013</span>
-        <a class="post-link" href="/2013/04/kto-naznachaet-cenu-na-zoloto.html">Кто назначает цену на золото?</a>
-        <p>Цена на золото в международной экономике устанавливается не рыночным механизмом, а сговором нескольких банков</p>
-      </li>
-    
-      <li>
-        <span class="post-date">23.02.2013</span>
-        <a class="post-link" href="/2013/02/kto-platit-za-inflyaciyu.html">Кто платит за инфляцию?</a>
-        <p></p>
-      </li>
-    
-      <li>
-        <span class="post-date">14.02.2013</span>
-        <a class="post-link" href="/2013/02/blog-post.html">Анализ статьи Немцова "Жизнь раба на галерах"</a>
-        <p></p>
-      </li>
-    
-  </ul>
-
+<div class="home">
+  <center>
+    <div style="width: 450px" class="social-feed-container"></div>
+  </center>
 </div>
 
-              </div>
-            </td>
-            <td valign="top">
-              <div id="sidebar">
-                <a class="twitter-timeline" href="https://twitter.com/SergeiUdalov" data-widget-id="373367129795342336">Твиты пользователя @SergeiUdalov</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </div>
-            </td>
-          </tr>
-        </table>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/doT.min.js"></script>
+<script src="/js/moment-with-locales.min.js"></script>
+<script src="/js/jquery.socialfeed.js"></script>
 
-  <div style="text-align: center; padding: 50px 0px 50px 0px; border: dotted 1px #888 ">
+<script>
+  $(document).ready(function(){
+    $('.social-feed-container').socialfeed({
+      template: "/js/socialfeed/template.txt",
+      vk: {
+        accounts: ['@143148639'], 
+        limit: 8,
+        source: 'all'
+      },
+      length:400,
+      show_media:true,
+      // Moderation function - if returns false, template will have class hidden
+      moderation: function(content){
+        return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
+      },
+      //update_period: 5000,
+      // When all the posts are collected and displayed - this function is evoked
+      callback: function(){
+        console.log('all posts are collected');
+      }
+    });
+  });
+</script>
+
+
+      <div style="text-align: center; padding: 50px 0px 50px 0px; border: dotted 1px #888 ">
   <center>
     <table class="no-border">
       <tr>
@@ -187,7 +141,6 @@
 
 </div>
 
-      </center>
     </div>
 
     <footer class="site-footer">
