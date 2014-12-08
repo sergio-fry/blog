@@ -1,17 +1,39 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="{{ "/css/jquery.socialfeed.css" | prepend: site.baseurl }}">
 
 <div class="home">
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
-        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.description }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-
+  <center>
+    <div style="width: 450px" class="social-feed-container"></div>
+  </center>
 </div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/doT.min.js"></script>
+<script src="/js/moment-with-locales.min.js"></script>
+<script src="/js/jquery.socialfeed.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.social-feed-container').socialfeed({
+      template: "/js/socialfeed/template.txt",
+      vk: {
+        accounts: ['@143148639'], 
+        limit: 8,
+        source: 'all'
+      },
+      length:400,
+      show_media:true,
+      // Moderation function - if returns false, template will have class hidden
+      moderation: function(content){
+        return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
+      },
+      //update_period: 5000,
+      // When all the posts are collected and displayed - this function is evoked
+      callback: function(){
+        console.log('all posts are collected');
+      }
+    });
+  });
+</script>
