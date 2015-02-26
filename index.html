@@ -9,31 +9,6 @@ layout: default
   </center>
 </div>
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/doT.min.js"></script>
-<script src="/js/moment-with-locales.min.js"></script>
-<script src="/js/jquery.socialfeed.js"></script>
+<a class="twitter-timeline"  href="https://twitter.com/SergeiUdalov" data-widget-id="373367129795342336">Твиты от @SergeiUdalov</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<script>
-  $(document).ready(function(){
-    $('.social-feed-container').socialfeed({
-      template: "/js/socialfeed/template.txt",
-      vk: {
-        accounts: ['@143148639'], 
-        limit: 8,
-        source: 'all'
-      },
-      length:400,
-      show_media:true,
-      // Moderation function - if returns false, template will have class hidden
-      moderation: function(content){
-        return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
-      },
-      //update_period: 5000,
-      // When all the posts are collected and displayed - this function is evoked
-      callback: function(){
-        console.log('all posts are collected');
-      }
-    });
-  });
-</script>
