@@ -1,7 +1,0 @@
-#!/bin/bash
-
-cd _site
-
-git push origin gh-pages
-
-cd ..
