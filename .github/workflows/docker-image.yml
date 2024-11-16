@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
     - name: Login to GitHub Container Registry
     # if: ${{ github.event_name != 'pull_request' && vars.PUBLISH_DOCKER_IMAGES == 'true' }}
@@ -29,4 +26,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ${{ github.repository_owner }}/blog:latest
+        tags: ghcr.io/${{ github.repository_owner }}/blog:latest
