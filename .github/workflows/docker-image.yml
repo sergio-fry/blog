@@ -18,7 +18,7 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
     - name: Login to GitHub Container Registry
-      if: ${{ github.event_name != 'pull_request' && vars.PUBLISH_DOCKER_IMAGES == 'true' }}
+    # if: ${{ github.event_name != 'pull_request' && vars.PUBLISH_DOCKER_IMAGES == 'true' }}
       uses: docker/login-action@v3
       with:
         registry: ghcr.io
