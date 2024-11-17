@@ -38,6 +38,7 @@ theme_config:
   show_description: false # show blog description in home page
 
 plugins:
+  - jekyll-wikirefs
   - jekyll-feed
   - jekyll-seo-tag
 
