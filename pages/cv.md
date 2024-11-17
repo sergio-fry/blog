@@ -1,12 +1,10 @@
 ---
 layout: page
-title: резюме
 permalink: /резюме/
 ---
 ![](https://2.gravatar.com/avatar/930a15d4a6be0a15f5fae212fff5651828c1c981950f35b0ebe5702e7154ec54?size=128)
 
 # Сергей Удалов. Резюме
-
 
 
 Россия, МО, г. Балашиха, [+7 (916) 627-26-58](tel:+79166272658), [udalov.x@mail.ru](mailto:udalov.x@mail.ru),
