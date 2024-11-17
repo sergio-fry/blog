@@ -1,8 +1,8 @@
 body {
   color: black;
   background-color: white;
-  font-family: monospace;
-  font-size: 1.3rem;
+  font-family: Monaco, "Roboto Mono", "Ubuntu Mono", "Courier New", monospace;
+  font-size: 1.0rem;
   line-height: 1.3rem;
 }
 
@@ -18,6 +18,9 @@ h1 { line-height: 2rem; }
 hr {
   text-align: center;
   border: 0;
+  height: 1px;
+  background: black linear-gradient(to right, transparent 50%, #fff 50%);
+  background-size: 13px 2px, 100% 2px;
 
   &:before { content: '/////' }
   &:after { content: attr(data-content) '/////' }
@@ -26,4 +29,27 @@ hr {
 table, th, td {
   border: thin solid black;
   border-collapse: collapse;
+}
+
+/*- CUSTOM -*/
+
+.post-meta a {
+  color: black;
+}
+.post-meta .title {
+  font-weight: bold;
+}
+a.no-text-decoration {
+  text-decoration: none;
+}
+.secondary {
+  color: grey;
+}
+a.link {
+  color: green;
+}
+
+a.link.link_missing {
+  color: red;
+  text-decoration-style: dotted;
 }
