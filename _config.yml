@@ -38,9 +38,10 @@ theme_config:
   show_description: false # show blog description in home page
 
 plugins:
-  - jekyll-wikirefs
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-wikirefs
 
 # Exclude from processing.
 # The following items will not be processed, by default.
