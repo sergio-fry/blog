@@ -1,7 +1,7 @@
 ---
 layout: page
-title: rspec
 ---
+
 # RSpec
 
 
