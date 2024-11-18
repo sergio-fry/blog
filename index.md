@@ -38,6 +38,4 @@ layout: home
  [habr](https://habr.com/ru/users/SergeiUdalov/)
 
 
-[[ocp]]
-
 {%- include post_list.html -%}

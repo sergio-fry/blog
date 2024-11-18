@@ -1,7 +1,6 @@
 ---
 layout: page
 category: programming
-permalink: /:categories/:title
 ---
 
 # MVC

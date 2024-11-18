@@ -6,8 +6,8 @@
   {% feed_meta %}
   {% seo %}
   
-  {% if site.goat_counter and jekyll.environment == "production" %}
-    {% include goat_counter.html %}
+  {% if jekyll.environment == "production" %}
+    {% include counter.html %}
   {% endif %}
 
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}" />
