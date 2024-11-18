@@ -1,5 +1,6 @@
 ---
 layout: page
+disable_comments: true
 ---
 
 ![](https://2.gravatar.com/avatar/930a15d4a6be0a15f5fae212fff5651828c1c981950f35b0ebe5702e7154ec54?size=128)
