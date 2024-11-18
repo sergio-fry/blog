@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /clean_architecture/
 tags: ruby, rails
 category: programming
 ---

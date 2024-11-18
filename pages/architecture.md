@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Архитектура
-permalink: /architecture/
 category: programming
 ---
 

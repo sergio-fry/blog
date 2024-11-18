@@ -1,7 +1,6 @@
 ---
 layout: page
 title: rspec
-permalink: /rspec/
 ---
 # RSpec
 

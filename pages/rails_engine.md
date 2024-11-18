@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /rails_engine/
 category: programming
 tags: ruby
 ---

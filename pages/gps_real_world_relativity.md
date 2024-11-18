@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /gps_real_world_relativity/
 category: physics
 ---
 # Real-World Relativity: The GPS Navigation System

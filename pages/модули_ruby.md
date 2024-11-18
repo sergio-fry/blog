@@ -1,7 +1,6 @@
 ---
 layout: page
 title: модули_ruby
-permalink: /модули_ruby/
 ---
 # Модули в Ruby
 

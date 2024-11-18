@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /rails_structure/
 ---
 
 # Rails. Структура

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Отложенные задачи
-permalink: /background_jobs/
 category: programming
 ---
 

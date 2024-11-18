@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /ocp/
 category: programming
 tags: ruby
 ---
