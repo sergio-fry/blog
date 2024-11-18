@@ -8,19 +8,20 @@ disable_comments: true
 # Сергей Удалов. Резюме
 
 
-Россия, МО, г. Балашиха, [+7 (916) 627-26-58](tel:+79166272658), [udalov.x@mail.ru](mailto:udalov.x@mail.ru),
-tg [@SergeiUdalov](https://t.me/SergeiUdalov),
-[http://ru.linkedin.com/in/sergeiudalov](http://ru.linkedin.com/in/sergeiudalov), [https://github.com/sergio-fry](https://github.com/sergio-fry)
+[+7 (916) 627-26-58](tel:+79166272658),
+[udalov.x@mail.ru](mailto:udalov.x@mail.ru),
+<br />tg [@SergeiUdalov](https://t.me/SergeiUdalov),
+[https://ru.linkedin.com/in/sergeiudalov](https://ru.linkedin.com/in/sergeiudalov), [https://github.com/sergio-fry](https://github.com/sergio-fry)
 
-Тимлид с 2017 года, спикер, профессионально занимаюсь разработкой с 2006 года, на Ruby on Rails с конца 2007. Последнее время увлечен IPFS, Elegant Objects, Clean Architecture. Женат, двое детей. После наступления COVID-2019 так и не вернулся в офис.
+Тимлид с 2017 года, спикер, профессиональный разработчик с 2006 года. Управляю несколькими продуктовыми командами в ecom.tech, отвечаю за процесс разработки и управление людьми в них.
 
 
-| Языки          | Ruby                   |
+| Языки          | Ruby                                      |
 | Методологии    | ООП, TDD, DDD                             |
-| Фреймворки     | Ruby on Rails, Sinatra, Hanami, Roda        |
-| СУБД           | PostgreSQL, ClickHouse, Redis, SQLite       |
-| Тестирование   | RSpec, Capybara, Cucumber                   |
-| Другие         | Docker, RabbitMQ                            |
+| Фреймворки     | Ruby on Rails, Sinatra, Hanami, Roda      |
+| СУБД           | PostgreSQL, ClickHouse, Redis, SQLite     |
+| Тестирование   | RSpec, Capybara, Cucumber                 |
+| Другие         | Docker, Kafka, RabbitMQ                   |
 
 ## Публичные выступления
 
