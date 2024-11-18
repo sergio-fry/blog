@@ -1,8 +1,9 @@
 ---
 layout: page
-title: gps
 permalink: /gps/
+category: physics
 ---
+
 # GPS
 
 Есть сведения, что в работе GPS используются поправки на релятивизм:

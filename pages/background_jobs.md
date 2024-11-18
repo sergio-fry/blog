@@ -1,9 +1,9 @@
 ---
 layout: page
-title: background_jobs
+title: Отложенные задачи
 permalink: /background_jobs/
+category: programming
 ---
-# Отложенные задачи
 
 - у каждой очереди должно быть максимальное ожидаемое latency
 - timeout <= latency

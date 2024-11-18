@@ -1,8 +1,10 @@
 ---
 layout: page
-title: ruby_on_rails
-permalink: /ruby_on_rails/
+permalink: /ror/
 ---
+
+# Ruby on Rails
+
 <div class="trix-content">
   <h1>Ruby on Rails</h1><div>
 <br>RoR - самый целостный и полноценный framework для [[ruby]]. Есть и более легковесные элегантные аналоги. Однако, в них не решены многие проблемы, которые решены в rails. Если начать их решать, то получится такая же rails. Сейчас этим путем идет <a href="https://hanamirb.org/">hanami</a>: по мере развития он превратится в еще одну rails, но с меньшим числом библиотек.<br><br>В архитектуре rails есть несколько существенных недостатков:</div><ol>

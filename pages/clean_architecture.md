@@ -1,8 +1,10 @@
 ---
 layout: page
-title: чистая_архитектура
-permalink: /чистая_архитектура/
+permalink: /clean_architecture/
+tags: ruby, rails
+category: programming
 ---
+
 # Чистая архитектура в Ruby on Rails
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WiE3Kd_MThk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

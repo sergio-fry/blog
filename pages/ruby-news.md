@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ruby-news
 permalink: /ruby-news/
 ---
+
 # Новости Ruby
 
 - <https://rubyweekly.com/issues>

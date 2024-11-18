@@ -1,7 +1,8 @@
 ---
 layout: page
-title: open_closed_ruby
-permalink: /open_closed_ruby/
+permalink: /ocp/
+category: programming
+tags: ruby
 ---
 # Принцип "Open Closed" в Ruby
 
