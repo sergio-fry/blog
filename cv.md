@@ -23,12 +23,12 @@ disable_comments: true
 
 ## Публичные выступления
 
-* Rich Domain Model - бизнес-логика без БД #RubyRussia2024
-* RSpec - Эффективность #SberMarket #RubyMeetup 2023
-* RSpec - Поддерживаемость #RubyRussia2023
-* Open Closed в Ruby Ruby Meetup #19
-* Модули в Ruby Ruby Meetup #15
-* Чистая архитектура Ruby on Rails приложений Ruby Meetup #11
+* "Rich Domain Model - бизнес-логика без БД" - RubyRussia 2024
+* "RSpec - Эффективность" - SberMarket RubyMeetup 2023
+* "RSpec - Поддерживаемость" - RubyRussia 2023
+* "Open Closed в Ruby Ruby" - Meetup 19
+* "Модули в Ruby Ruby" - Meetup 15
+* "Чистая архитектура Ruby on Rails приложений" - Ruby Meetup 11
 * В качестве преподавателя провел курс "Основы Ruby on Rails" на geek brains
 
 
