@@ -8,10 +8,7 @@ disable_comments: true
 # Сергей Удалов
 
 
-[+7 (916) 627-26-58](tel:+79166272658),
-[udalov.x@mail.ru](mailto:udalov.x@mail.ru),
-tg:[@SergeiUdalov](https://t.me/SergeiUdalov),
-[https://ru.linkedin.com/in/sergeiudalov](https://ru.linkedin.com/in/sergeiudalov), [https://github.com/sergio-fry](https://github.com/sergio-fry)
+[+7 (916) 627-26-58](tel:+79166272658), [udalov.x@mail.ru](mailto:udalov.x@mail.ru), [tg:@SergeiUdalov](https://t.me/SergeiUdalov), [linkedin:@sergeiudalov](https://ru.linkedin.com/in/sergeiudalov), [github:@sergio-fry](https://github.com/sergio-fry)
 
 Тимлид с 2017 года, спикер, профессиональный разработчик с 2006 года. Управляю несколькими продуктовыми командами в ecom.tech, отвечаю за процесс разработки и управление людьми в них.
 
