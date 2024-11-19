@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/architecture.md",
+                "file": "programming/публичные_выступления.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "architecture"
+              "title": "публичные_выступления"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
-    "index.md",
-    "cv.md",
+    "programming/rspec.md",
+    "programming/ruby-news.md",
+    "programming/tests.md",
+    "programming/программирование.md",
     "_posts/2024-11-18-jekyll.md",
     "_posts/2024-11-19.md",
     "other/мысли.md",
