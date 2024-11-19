@@ -29,7 +29,7 @@ disable_comments: true
 * Open Closed в Ruby Ruby Meetup #19
 * Модули в Ruby Ruby Meetup #15
 * Чистая архитектура Ruby on Rails приложений Ruby Meetup #11
-* В качестве [преподавателя](https://gb.ru/users/teachers/4232465) провел курс "Основы Ruby on Rails" на geek brains
+* В качестве преподавателя провел курс "Основы Ruby on Rails" на geek brains
 
 
 ## Профессиональный опыт
