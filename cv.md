@@ -15,14 +15,14 @@ tg:[@SergeiUdalov](https://t.me/SergeiUdalov),
 
 Тимлид с 2017 года, спикер, профессиональный разработчик с 2006 года. Управляю несколькими продуктовыми командами в ecom.tech, отвечаю за процесс разработки и управление людьми в них.
 
-|              | Технологии                            |
-| ------------ | ------------------------------------- |
-| Языки        | Ruby                                  |
-| Методологии  | ООП, TDD, DDD                         |
-| Фреймворки   | Ruby on Rails, Sinatra, Hanami, Roda  |
-| СУБД         | PostgreSQL, ClickHouse, Redis, SQLite |
-| Тестирование | RSpec, Capybara, Cucumber             |
-| Другие       | Docker, Kafka, RabbitMQ               |
+|                  | Технологии                            |
+| ---------------- | ------------------------------------- |
+| **Языки**        | Ruby                                  |
+| **Методологии**  | ООП, TDD, DDD                         |
+| **Фреймворки**   | Ruby on Rails, Sinatra, Hanami, Roda  |
+| **СУБД**         | PostgreSQL, ClickHouse, Redis, SQLite |
+| **Тестирование** | RSpec, Capybara, Cucumber             |
+| **Другие**       | Docker, Kafka, RabbitMQ               |
 
 ## Публичные выступления
 
