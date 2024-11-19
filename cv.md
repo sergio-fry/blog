@@ -34,12 +34,13 @@ disable_comments: true
 
 ## Профессиональный опыт
 
-### Product Team Lead, с апреля 2023
+### Tech Lead, с апреля 2023
 
-Samokat.tech, Москва
+ecom.tech, Москва
 
 *Выработка архитектурных решений, кодревью, найм, развитие сотрудников. Навыки: Ruby, GraphQL, Kafka, PostgreSQL, Gitlab CI, Docker*
 
+- 
 
 ### Руководитель группы ruby-разработчиков, с сентября 2021 по апрель 2023
 
