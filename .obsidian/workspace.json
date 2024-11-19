@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/post template.md",
+                "file": "_posts/2024-11-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post template"
+              "title": "2024-11-19"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/post template.md",
+                "file": "_posts/2024-11-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for post template"
+              "title": "Backlinks for 2024-11-19"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/post template.md",
+                "file": "_posts/2024-11-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from post template"
+              "title": "Outgoing links from 2024-11-19"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/post template.md"
+                "file": "_posts/2024-11-19.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of post template"
+              "title": "Outline of 2024-11-19"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
-    "_posts/2024-11-18-jekyll.md",
+    "other/мысли.md",
+    "_posts/2024-11-19.md",
     "_posts/post template.md",
+    "_posts/2024-11-18-jekyll.md",
     "programming/clean_architecture.md",
     "programming/editor.md",
     "programming/background_jobs.md",
