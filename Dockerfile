@@ -11,4 +11,13 @@ RUN apt install -y wget host
 RUN wget https://dist.ipfs.tech/kubo/v0.32.1/kubo_v0.32.1_linux-amd64.tar.gz
 RUN tar -xvzf kubo_v0.32.1_linux-amd64.tar.gz
 
-COPY --from=builder /app/_site/ /usr/share/nginx/html
+WORKDIR /app
+COPY .build/server/Gemfile .build/server/Gemfile.lock /app/
+RUN bundle install 
+COPY .build/server/* ./
+RUN chmod +x entrypoint.sh
+
+COPY --from=builder /app/_site/ /app/_site
+
+ENTRYPOINT ["/app/entrypoint.sh"]
+CMD ["web"]
