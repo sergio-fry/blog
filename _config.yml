@@ -23,7 +23,7 @@ email: udalov.x@mail.ru
 description: >- # this means to ignore newlines until "baseurl:"
   Ruby-тимлид, автор подкасата Heavy Tech, блоггер. Занимюсь разрботкой с 2006 года.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sergei.udalovs.ru" # the base hostname & protocol for your site, e.g. http://example.com
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 #theme: no-style-please

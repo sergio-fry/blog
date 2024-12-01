@@ -1,5 +1,3 @@
-require_relative 'ipfs/gateway'
-
 module Rack 
   class IPFS
     def initialize(app)
@@ -7,15 +5,15 @@ module Rack
     end
 
     def call(env)
-      status, headers, body = response = @app.call(env)
+      _status, headers, _body = response = @app.call(env)
 
-      headers['x-ipfs-path'] = "/ipfs/QmW2zHmACr7sJ3MFJR2adsENJBcwRwiNSzmopoUSGRfkrj/cv.html"
+      headers['x-ipfs-path'] = "/ipfs/#{cid}#{env["REQUEST_PATH"]}"
 
       response
     end
 
-    def cid(content)
-      @gateway.add content
+    def cid
+      'QmW2zHmACr7sJ3MFJR2adsENJBcwRwiNSzmopoUSGRfkrj'
     end
   end
 end
