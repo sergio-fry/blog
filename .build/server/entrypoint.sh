@@ -1,10 +1,9 @@
 #!/bin/bash
 set -e
 
-ls -l 
-
 if [ "$1" = 'web' ]; then
-  bundle exec rackup
+  ipfs add -r _site
+  bundle exec rackup -o 0.0.0.0 -p 9292
 fi
 
 

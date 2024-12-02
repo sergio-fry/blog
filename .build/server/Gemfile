@@ -2,3 +2,5 @@ source 'https://rubygems.org'
 
 gem 'rack'
 gem 'rackup'
+
+gem "falcon", "~> 0.48.3"
