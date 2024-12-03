@@ -29,6 +29,8 @@ module Rack
 
       gateway.pin cid
       gateway.provide cid, recursive: true
+
+      cid
     end
   end
 end
