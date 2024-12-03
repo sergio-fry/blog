@@ -71,10 +71,10 @@ module Rack
         call_method('/api/v0/cat', params: { arg: cid, progress: false }, json_parse: false)
       end
 
-      def pin(cid) = call_method('/api/v0/pin/add', params: { arg: cid })
+      def pin(cid) = call_method('/api/v0/pin/add', params: { arg: cid }, json_parse: false)
 
       def provide(cid, recursive: false)
-        call_method('/api/v0/routing/provide', params: { arg: cid, recursive: })
+        call_method('/api/v0/routing/provide', params: { arg: cid, recursive: }, json_parse: false)
       end
     end
   end
