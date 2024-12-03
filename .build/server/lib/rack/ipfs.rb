@@ -1,4 +1,5 @@
 require 'ipfs-api'
+require_relative 'ipfs/gateway'
 
 module Rack 
   class IPFS
@@ -10,17 +11,24 @@ module Rack
     def call(env)
       _status, headers, _body = response = @app.call(env)
 
-      
       begin
-        headers['x-ipfs-path'] = "/ipfs/#{cid}#{env["REQUEST_PATH"]}"
-      rescue => ex
-        puts ex
+        headers['x-ipfs-path'] = "/ipfs/#{cid}#{env['REQUEST_PATH']}"
+      rescue => e
+        puts e
       end
 
       response
     end
 
-    def cid = @cid ||= ipfs.add(Dir.new('_site'))[-1].hash
+    def cid = @cid ||= provide_cid
     def ipfs = ::IPFS::Connection.new(@kubo_url)
+    def gateway = Gateway.new(api_endpoint: @kubo_url)
+
+    def provide_cid 
+      cid = ipfs.add(Dir.new('_site'))[-1].hash
+
+      @gateway.pin cid
+      @gateway.provide cid, recursive: true
+    end
   end
 end

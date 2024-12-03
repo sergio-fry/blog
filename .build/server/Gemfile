@@ -4,3 +4,5 @@ gem 'ipfs-api'
 gem 'puma'
 gem 'rack'
 gem 'rackup'
+
+gem "http", "~> 5.2"
