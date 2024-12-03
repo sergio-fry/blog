@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    ipfs-api (0.4.0)
     nio4r (2.7.4)
     puma (6.5.0)
       nio4r (~> 2.0)
@@ -14,7 +13,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ipfs-api
   puma
   rack
   rackup
