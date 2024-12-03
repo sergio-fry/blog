@@ -28,7 +28,7 @@ module Rack
       cid = connection.add(Dir.new('_site'))[-1].hash
 
       gateway.pin cid
-      gateway.provide cid, recursive: true
+      # gateway.provide cid, recursive: true
 
       cid
     end
