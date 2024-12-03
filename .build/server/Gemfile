@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'falcon'
 gem 'ipfs-api'
+gem 'puma'
 gem 'rack'
 gem 'rackup'

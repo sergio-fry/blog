@@ -10,7 +10,12 @@ module Rack
     def call(env)
       _status, headers, _body = response = @app.call(env)
 
-      headers['x-ipfs-path'] = "/ipfs/#{cid}#{env["REQUEST_PATH"]}"
+      
+      begin
+        headers['x-ipfs-path'] = "/ipfs/#{cid}#{env["REQUEST_PATH"]}"
+      rescue => ex
+        puts ex
+      end
 
       response
     end
