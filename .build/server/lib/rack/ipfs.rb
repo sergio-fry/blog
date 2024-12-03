@@ -27,8 +27,10 @@ module Rack
     def provide_cid
       cid = connection.add(Dir.new('_site'))[-1].hash
 
-      gateway.pin cid
-      # gateway.provide cid, recursive: true
+      Thread.new do
+        gateway.pin cid
+        gateway.provide cid, recursive: true
+      end
 
       cid
     end
