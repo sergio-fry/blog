@@ -15,9 +15,13 @@ module Rack
         headers['x-ipfs-path'] = "/ipfs/#{cid}#{env['REQUEST_PATH']}"
       rescue StandardError => e
         puts e
-      end
+      end unless ignore_path?(env['REQUEST_PATH'])
 
       response
+    end
+
+    def ignore_path?(path)
+      ['', nil, '/', '/feed.xml'].include?(path)
     end
 
     def cid = @cid ||= provide_cid
