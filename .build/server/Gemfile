@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ipfs-api'
 gem 'puma'
 gem 'rack'
 gem 'rackup'
