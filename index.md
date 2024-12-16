@@ -22,15 +22,15 @@ layout: home
 
 ## Контакты
 
- <a href="tel://+79166272658">+79166272658</a> 
+<a href="tel://+79166272658">+79166272658</a> 
 [udalov.x@mail.ru](mailto:udalov.x@mail.ru) 
- [[cv|резюме]]
- [https://ru.linkedin.com/in/sergeiudalov]()
- [github](https://github.com/sergio-fry)
- [tg](https://t.me/UdalovX)
- [vk](https://vk.com/sergeiudalov)
- [youtube](https://www.youtube.com/@SergeiUdalov)
- [lichess](https://lichess.org/@/SergeiUdalov)
- [codewars](https://www.codewars.com/users/sergio-fry)
- [habr](https://habr.com/ru/users/SergeiUdalov/)
+[[cv|резюме]]
+[linkedin](https://ru.linkedin.com/in/sergeiudalov)
+[github](https://github.com/sergio-fry)
+[tg](https://t.me/UdalovX)
+[vk](https://vk.com/sergeiudalov)
+[youtube](https://www.youtube.com/@SergeiUdalov)
+[lichess](https://lichess.org/@/SergeiUdalov)
+[codewars](https://www.codewars.com/users/sergio-fry)
+[habr](https://habr.com/ru/users/SergeiUdalov/)
 
