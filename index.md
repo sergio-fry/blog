@@ -25,6 +25,7 @@ layout: home
  <a href="tel://+79166272658">+79166272658</a> 
 [udalov.x@mail.ru](mailto:udalov.x@mail.ru) 
  [[cv|резюме]]
+ [https://ru.linkedin.com/in/sergeiudalov]()
  [github](https://github.com/sergio-fry)
  [tg](https://t.me/UdalovX)
  [vk](https://vk.com/sergeiudalov)
