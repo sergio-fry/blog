@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2025-01-06-planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2025-01-06-planning"
             }
           }
         ]
@@ -166,6 +166,8 @@
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
     "_posts/2024-12-03-ipfs.md",
+    "_posts/2025-01-06-planning.md",
+    "index.md",
     "_posts/2024-11-29-funny-architecture.md",
     "_posts/2024-11-18-jekyll.md",
     "cv.md",
