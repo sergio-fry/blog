@@ -16,7 +16,7 @@ disable_comments: true
 ## Технический лидер продукта
 ecom.tech (samokat.tech), апрель 2023 - настоящее время
 
-*Управление тремя командами разработки, delivery - 18 человек. Выработка архитектурных решений, кодревью, найм, развитие сотрудников. Навыки: Ruby, Go, GraphQL, Kafka, PostgreSQL, Gitlab CI, Docker, DevOps*
+Управление тремя командами разработки, delivery - 18 человек. Выработка архитектурных решений, кодревью, найм, развитие сотрудников. Навыки: Ruby, Go, GraphQL, Kafka, PostgreSQL, Gitlab CI, Docker, DevOps
 
 - выведено новых 3 продукта в production
 - выстроены процессы разработки от проектирования до доставки в новых командах
@@ -29,7 +29,7 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 ## Руководитель практики ruby 
 Баланс Платформа (там же), октябрь 2021 - апрель 2023
 
-*Внедрение лучших практик, выработка архитектурных решений, найм, развитие сотрудников.*
+Внедрение лучших практик, выработка архитектурных решений, найм, развитие сотрудников.
 
 - внедрил систему оценки соискателей
 - описал протокол RPC для внутренних сервисов
@@ -42,7 +42,7 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 ## Тимлид
 Баланс Платформа (там же), август 2020 - август 2021
 
-*Управление командой разработки 9 человек, внедрение процессов от проектирования до доставки, кодревью, найм, развитие сотрудников. Навыки: Jira, Ruby, PostreSQL, RabbitMQ, ClickHouse, RSpec, Gitlab CI, Docker, Kubernates, Redis, REST API*
+Управление командой разработки 9 человек, внедрение процессов от проектирования до доставки, кодревью, найм, развитие сотрудников. Навыки: Jira, Ruby, PostreSQL, RabbitMQ, ClickHouse, RSpec, Gitlab CI, Docker, Kubernates, Redis, REST API
 
 - кратное увеличение пропускной способности
 - повышена стабильность работы системы
@@ -56,7 +56,7 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 ## Ведущий программист
 Баланс Платформа, сентябрь 2019 - август 2020
 
-*Разработка сервисов для автоматизации процесса выдачи кредитов (Lending-as-a-Service, LaaS). Проектирование и разрабоотка внутренних сервисов. Навыки: Ruby, PostreSQL, RabbitMQ, ClickHouse, RSpec, Gitlab CI, Docker, Kubernates, Redis, Memcached, JSON, REST API, Swagger.*
+Разработка сервисов для автоматизации процесса выдачи кредитов (Lending-as-a-Service, LaaS). Проектирование и разрабоотка внутренних сервисов. Навыки: Ruby, PostreSQL, RabbitMQ, ClickHouse, RSpec, Gitlab CI, Docker, Kubernates, Redis, Memcached, JSON, REST API, Swagger.
 
 - Оптимизация ядра системы
 - Оптимизация SQL запросов
@@ -67,7 +67,7 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 ## Тимлид
 Софт Телематика (там же), июнь 2017 - август 2019
 
-*Координация работы группы разработки 7 разработчиков и разработка в проектах “Платон”, “Обоз”, “Коспро платные дороги”. Навыки: Ruby on Rails, PostgreSQL, RabbitMQ, ClickHouse, RSpec, Cucumber, Capybara, Redis, Camunda, Jira, Keycloack, Java, Kotlin, Docker, Docker Swarm, Gitlab CI, JWT, Jenkins, Microservices, MongoDB, ELK, memcached, REST API, JSON, XML.*
+Координация работы группы разработки 7 разработчиков и разработка в проектах “Платон”, “Обоз”, “Коспро платные дороги”. Навыки: Ruby on Rails, PostgreSQL, RabbitMQ, ClickHouse, RSpec, Cucumber, Capybara, Redis, Camunda, Jira, Keycloack, Java, Kotlin, Docker, Docker Swarm, Gitlab CI, JWT, Jenkins, Microservices, MongoDB, ELK, memcached, REST API, JSON, XML.
 
 - 3 разработчика из моей команды с уровнем middle/sinior стали тимлидами
 - Разработан ряд АРМ-ов для системы взимания платы “Коспро платные дороги”
@@ -79,7 +79,7 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 ## Ведущий программист
 Софт Телематика, апрель 2017 - июнь 2017
 
-*Доработка системы взимания платы “Платон”. Навыки: Ruby on Rails, PostgreSQL, Docker, Gitlab CI, RabbitMQ, RSpec, Redis, Backbone, ReactJS.*
+Доработка системы взимания платы “Платон”. Навыки: Ruby on Rails, PostgreSQL, Docker, Gitlab CI, RabbitMQ, RSpec, Redis, Backbone, ReactJS.
 
 - Разработан сервис для генерации отчетов
 - Реализована сборка тестового образа с БД
