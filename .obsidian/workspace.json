@@ -163,8 +163,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "183c414f22ec1826",
+  "active": "2918da5d3e2e7856",
   "lastOpenFiles": [
+    "_sass/no-style-please.scss~",
+    "_site/2025/01/06/planning.html",
+    "_site/2025/01/06",
+    "_site/2025/01",
+    "_site/2025",
     "_posts/2025-01-06-planning.md",
     "_posts/2025-01-06.md",
     "_posts/2024-12-03-ipfs.md",
