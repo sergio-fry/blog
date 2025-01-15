@@ -69,7 +69,7 @@ ecom.tech (samokat.tech)
 Софт Телематика (там же)
 Июнь 2017 - Август 2019
 
-*Координация работы группы разработки (до 7-ми разраобтчиков) и разработка в проектах “Платон”, “Обоз”, “Коспро платные дороги”. Навыки: Ruby on Rails, PostgreSQL, RabbitMQ, ClickHouse, RSpec, Cucumber, Capybara, Redis, Camunda, Jira, Keycloack, Java, Kotlin, Docker, Docker Swarm, Gitlab CI, JWT, Jenkins, Microservices, MongoDB, ELK, memcached, REST API, JSON, XML.*
+*Координация работы группы разработки 7 разработчиков и разработка в проектах “Платон”, “Обоз”, “Коспро платные дороги”. Навыки: Ruby on Rails, PostgreSQL, RabbitMQ, ClickHouse, RSpec, Cucumber, Capybara, Redis, Camunda, Jira, Keycloack, Java, Kotlin, Docker, Docker Swarm, Gitlab CI, JWT, Jenkins, Microservices, MongoDB, ELK, memcached, REST API, JSON, XML.*
 
 * 3 разработчика из моей команды с уровнем middle/sinior стали тимлидами
 * Разработан ряд АРМ-ов для системы взимания платы “Коспро платные дороги”
