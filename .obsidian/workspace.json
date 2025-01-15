@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a26376bd6b6d969b",
@@ -163,7 +164,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2918da5d3e2e7856",
+  "active": "183c414f22ec1826",
   "lastOpenFiles": [
     "_sass/no-style-please.scss~",
     "_site/2025/01/06/planning.html",
