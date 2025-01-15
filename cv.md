@@ -65,19 +65,19 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 - Доработка сервиса LaaS
 
 ## Тимлид
-Софт Телематика, Концерн Телматика (там же), июнь 2017 - август 2019
+Софт Телематика, Концерн Телематика (там же), июнь 2017 - август 2019
 
 Координация работы группы разработки 7 разработчиков и разработка в проектах “Платон”, “Обоз”, “Коспро платные дороги”. Навыки: Ruby on Rails, PostgreSQL, RabbitMQ, ClickHouse, RSpec, Cucumber, Capybara, Redis, Camunda, Jira, Keycloack, Java, Kotlin, Docker, Docker Swarm, Gitlab CI, JWT, Jenkins, Microservices, MongoDB, ELK, memcached, REST API, JSON, XML.
 
 - 3 разработчика из моей команды с уровнем middle/sinior стали тимлидами
 - Разработан ряд АРМ-ов для системы взимания платы “Коспро платные дороги”
-- Внедрение автомтизированного тестирования в нескольких модулях “Платон”
+- Внедрение автоматизированного тестирования в нескольких модулях “Платон”
 - Доработка АПИ для мобильных приложений
 - Добавлен ряд отчетов для “Платон”
 - Значительно расширен функционал проекта “Обоз” (Документооборот для системы грузоперевозок). Проект сдан заказчику. (интеграция с РЖД, система автоподбора вариантов перевозки с использованием генетического алгоритма, интеграция с Traccar)
 
 ## Ведущий программист
-Софт Телематика, Концерн Телматика, апрель 2017 - июнь 2017
+Софт Телематика, Концерн Телематика, апрель 2017 - июнь 2017
 
 Доработка системы взимания платы “Платон”. Навыки: Ruby on Rails, PostgreSQL, Docker, Gitlab CI, RabbitMQ, RSpec, Redis, Backbone, ReactJS.
 
@@ -87,14 +87,14 @@ ecom.tech (samokat.tech), апрель 2023 - настоящее время
 ---
 # Технологии и навыки
 
-|                  |                                                                                                                                                |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Языки**        | Ruby, JavaScript, Go, Kotlin, Java, Python                                                                                                     |
-| **Методологии**  | ООП, TDD, DDD, Srum, Agile                                                                                                                     |
-| **Фреймворки**   | Ruby on Rails, Sinatra, Hanami, Roda                                                                                                           |
-| **СУБД**         | PostgreSQL, ClickHouse, Redis, SQLite, Mongo                                                                                                   |
-| **Тестирование** | CI/CD, RSpec, Capybara, Cucumber, Selenium                                                                                                     |
-| **Другие**       | Docker, Kafka, RabbitMQ, Kibana, Grafana, Logstash, Prometheus, REST, GraphQL, Микросервисы, Event Streaming, Gitlab, Github, Camunda, Swagger |
+|                  |                                                                                                                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Языки**        | Ruby, JavaScript, Go, Kotlin, Java, Python                                                                                                                           |
+| **Методологии**  | ООП, TDD, DDD, Srum, Agile                                                                                                                                           |
+| **Фреймворки**   | Ruby on Rails, Sinatra, Hanami, Roda, Spring Boot                                                                                                                    |
+| **СУБД**         | PostgreSQL, ClickHouse, Redis, SQLite, Mongo                                                                                                                         |
+| **Тестирование** | CI/CD, RSpec, Capybara, Cucumber, Selenium                                                                                                                           |
+| **Другие**       | Docker, Kafka, RabbitMQ, Kibana, Grafana, Logstash, Prometheus, REST, GraphQL, Микросервисы, Event Streaming, Gitlab, Github, Camunda, Swagger, Keycloak, Kubernetes |
 
 
 
