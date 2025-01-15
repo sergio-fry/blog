@@ -14,7 +14,7 @@ disable_comments: true
 
 |                  | Технологии                            |
 | ---------------- | ------------------------------------- |
-| **Языки**        | Ruby                                  |
+| **Языки**        | Ruby, JavaScript, Go                  |
 | **Методологии**  | ООП, TDD, DDD                         |
 | **Фреймворки**   | Ruby on Rails, Sinatra, Hanami, Roda  |
 | **СУБД**         | PostgreSQL, ClickHouse, Redis, SQLite |
