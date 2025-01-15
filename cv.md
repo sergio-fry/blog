@@ -14,8 +14,7 @@ disable_comments: true
 
 ---
 ## Технический лидер продукта
-ecom.tech (samokat.tech)
-Апрель 2023 - настоящее время
+ecom.tech (samokat.tech), апрель 2023 - настоящее время
 
 *Управление тремя командами разработки, delivery - 18 человек. Выработка архитектурных решений, кодревью, найм, развитие сотрудников. Навыки: Ruby, Go, GraphQL, Kafka, PostgreSQL, Gitlab CI, Docker, DevOps*
 
@@ -28,8 +27,7 @@ ecom.tech (samokat.tech)
 - 2 внутренних выступления
 
 ## Руководитель группы ruby-разработчиков, 
-Баланс Платформа (там же)
-Октябрь 2021 - Апрель 2023
+Баланс Платформа (там же), октябрь 2021 - апрель 2023
 
 *Внедрение лучших практик, выработка архитектурных решений, найм, развитие сотрудников.*
 
@@ -42,8 +40,7 @@ ecom.tech (samokat.tech)
 * развитие процесса проведения архитектурных комитетов 
 
 ## Тимлид
-Баланс Платформа (там же)
-Август 2020 - Август 2021
+Баланс Платформа (там же), август 2020 - август 2021
 
 *Управление командой разработки 9 человек, внедрение процессов от проектирования до доставки, кодревью, найм, развитие сотрудников. Навыки: Jira, Ruby, PostreSQL, RabbitMQ, ClickHouse, RSpec, Gitlab CI, Docker, Kubernates, Redis, REST API*
 
@@ -57,8 +54,7 @@ ecom.tech (samokat.tech)
 * подготовлен тимлид на смену
 
 ## Ведущий программист
-Баланс Платформа
-Сентябрь 2019 - Август 2020
+Баланс Платформа, сентябрь 2019 - август 2020
 
 *Разработка сервисов для автоматизации процесса выдачи кредитов (Lending-as-a-Service, LaaS). Проектирование и разрабоотка внутренних сервисов. Навыки: Ruby, PostreSQL, RabbitMQ, ClickHouse, RSpec, Gitlab CI, Docker, Kubernates, Redis, Memcached, JSON, REST API, Swagger.*
 
@@ -69,8 +65,7 @@ ecom.tech (samokat.tech)
 * Доработка сервиса LaaS
 
 ## Тимлид
-Софт Телематика (там же)
-Июнь 2017 - Август 2019
+Софт Телематика (там же), июнь 2017 - август 2019
 
 *Координация работы группы разработки 7 разработчиков и разработка в проектах “Платон”, “Обоз”, “Коспро платные дороги”. Навыки: Ruby on Rails, PostgreSQL, RabbitMQ, ClickHouse, RSpec, Cucumber, Capybara, Redis, Camunda, Jira, Keycloack, Java, Kotlin, Docker, Docker Swarm, Gitlab CI, JWT, Jenkins, Microservices, MongoDB, ELK, memcached, REST API, JSON, XML.*
 
@@ -82,8 +77,7 @@ ecom.tech (samokat.tech)
 * Значительно расширен функционал проекта “Обоз” (Документооборот для системы грузоперевозок). Проект сдан заказчику. (интеграция с РЖД, система автоподбора вариантов перевозки с использованием генетического алгоритма, интеграция с Traccar)
 
 ## Ведущий программист
-Софт Телематика
-Апрель 2017 - Июнь 2017
+Софт Телематика, апрель 2017 - июнь 2017
 
 *Доработка системы взимания платы “Платон”. Навыки: Ruby on Rails, PostgreSQL, Docker, Gitlab CI, RabbitMQ, RSpec, Redis, Backbone, ReactJS.*
 
@@ -93,13 +87,13 @@ ecom.tech (samokat.tech)
 ---
 # Технологии и навыки
 
-| **Языки**        | Ruby, JavaScript, Go, Kotlin, Java, Python                                                                   |
-| ---------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Методологии**  | ООП, TDD, DDD, Srum, Agile                                                                                   |
-| **Фреймворки**   | Ruby on Rails, Sinatra, Hanami, Roda                                                                         |
-| **СУБД**         | PostgreSQL, ClickHouse, Redis, SQLite, Mongo                                                                 |
-| **Тестирование** | RSpec, Capybara, Cucumber, Selenium                                                                          |
-| **Другие**       | Docker, Kafka, RabbitMQ, Kibana, Grafana, Logstash, Prometheus, REST, GraphQL, Микросервисы, Event Streaming |
+| **Языки**        | Ruby, JavaScript, Go, Kotlin, Java, Python                                                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Методологии**  | ООП, TDD, DDD, Srum, Agile                                                                                                                     |
+| **Фреймворки**   | Ruby on Rails, Sinatra, Hanami, Roda                                                                                                           |
+| **СУБД**         | PostgreSQL, ClickHouse, Redis, SQLite, Mongo                                                                                                   |
+| **Тестирование** | CI/CD, RSpec, Capybara, Cucumber, Selenium                                                                                                     |
+| **Другие**       | Docker, Kafka, RabbitMQ, Kibana, Grafana, Logstash, Prometheus, REST, GraphQL, Микросервисы, Event Streaming, Gitlab, Github, Camunda, Swagger |
 
 # Публичная активность
 Веду YouTube ([@SergeiUdalov](https://www.youtube.com/@SergeiUdalov)) и телеграм ([@UdalovX](https://t.me/UdalovX)) каналы, на которых рассказываю о своем опыте, технологиях, обсуждаю актуальные темы с экспертами из индустрии.
