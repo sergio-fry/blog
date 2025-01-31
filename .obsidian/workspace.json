@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv.md",
+                "file": "_posts/2025-01-31-factory-create-daom.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "2025-01-31-factory-create-daom"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a26376bd6b6d969b",
@@ -165,15 +166,17 @@
   },
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
-    "Участие в Lead Conf 2025.md",
+    "_posts/2025-01-06-planning.md",
+    "_posts/2025-01-31-factory-create-daom.md",
+    "_posts/2025-01-06-planning 1.md",
     "cv.md",
+    "Участие в Lead Conf 2025.md",
     "cv 1.md",
     "_sass/no-style-please.scss~",
     "_site/2025/01/06/planning.html",
     "_site/2025/01/06",
     "_site/2025/01",
     "_site/2025",
-    "_posts/2025-01-06-planning.md",
     "_posts/2025-01-06.md",
     "_posts/2024-12-03-ipfs.md",
     "index.md",
