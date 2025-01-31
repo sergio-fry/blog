@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-01-31
-title: Создание не Active Recrod сущностей через FactoryBot
+title: Создание не Active Record сущностей через FactoryBot
 ---
 Почти все rails-разработчики знакомы с FactoryBot и с ее возможностями для создания тестовых данных. Однако, я у себя в проекте не использую AR, у меня репозитории и Entities, которые полностью in-memory объекты. Так называемые Plain Old Ruby Object (PORO). Что позволяет делать FactoryBot с такими классами?
 
