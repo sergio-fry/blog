@@ -45,4 +45,12 @@ to_create do |file, evaluator|
 end
 ```
 
-После этого начнет работать `create(:file)`, 
+После этого начнет работать `create(:file)`, который вернет созданный объект:
+
+```ruby
+let(:file) { create(:file) }
+
+it { expect(files.exists?(file.id)).not_to be_nil }
+```
+
+Кстати, такое создание не всегда означает создание записи в базе данных,
