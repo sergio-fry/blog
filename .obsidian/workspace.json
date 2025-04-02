@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-03-31-ddd-vacabular.md",
+                "file": "_drafts/2025-04-02-concurrency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-31-ddd-vacabular"
+              "title": "2025-04-02-concurrency"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a26376bd6b6d969b",
@@ -166,8 +167,9 @@
   },
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
-    "_posts/2025-03-31.md",
     "_posts/2025-03-31-ddd-vacabular.md",
+    "_drafts/2025-04-02-concurrency.md",
+    "_posts/2025-03-31.md",
     "_drafts",
     "_posts/2025-03-06-static-type-check.md",
     "_posts/2025-02-07-kubernetes-liveness-probe.md",
@@ -196,7 +198,6 @@
     "_posts/2024-11-19.md",
     "other/мысли.md",
     "_posts/post template.md",
-    "programming/clean_architecture.md",
-    "programming/editor.md"
+    "programming/clean_architecture.md"
   ]
 }
