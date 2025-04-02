@@ -1,8 +1,8 @@
 {
   "aiProviders": {
     "main": "id-1743616562466",
-    "embedding": "id-1743616563781",
-    "vision": null
+    "embedding": "id-1743616562466",
+    "vision": "id-1743620974497"
   },
   "defaults": {
     "creativity": "medium"
