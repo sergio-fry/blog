@@ -19,7 +19,7 @@
       "name": "Local GPT ollama embeddings",
       "url": "http://localhost:11434",
       "type": "ollama",
-      "model": "gemma3:1b",
+      "model": "gemma3:4b",
       "availableModels": [
         "gemma3:4b",
         "gemma3:1b"
