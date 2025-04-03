@@ -11,7 +11,7 @@ title: Статичная типизация в Ruby
 ```ruby
 sig { params(x: Integer).returns(String) }
 def foo(x)
-  ...
+  #...
 end
 ```
 
@@ -19,7 +19,7 @@ end
 ```ruby
 #: (Integer) -> String
 def foo(x)
-  ...
+  #...
 end
 ```
 
