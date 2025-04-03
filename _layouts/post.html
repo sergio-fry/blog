@@ -2,7 +2,8 @@
 layout: page
 ---
 
-{{ page.date | date_to_string}}
+{{ page.date | date_to_string}}, 
+<a href="{{ site.url }}">{{ site.author }}</a>
 
 {{ content }}
 
