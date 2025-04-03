@@ -59,5 +59,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-collections:
+collections: []
 
+
+highlighter: rouge
