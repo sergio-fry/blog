@@ -35,8 +35,7 @@
               "title": "Ruby проблемы"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,10 +178,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd2c77363afd12df",
+  "active": "183c414f22ec1826",
   "lastOpenFiles": [
-    "_drafts/2025-04-02-concurrency.md",
     "Ruby проблемы.md",
+    "_drafts/2025-04-02-concurrency.md",
     "_posts/2025-03-31-ddd-vacabular.md",
     "_posts/2025-03-31.md",
     "_drafts",

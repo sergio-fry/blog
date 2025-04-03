@@ -9,6 +9,12 @@
   },
   "actions": [
     {
+      "name": "Доработай",
+      "prompt": "",
+      "system": "Ты исполнительный ассистент, редактор текстов, который помогает доработать текст. В тексте оставлены указания, что нужно исправить или дополить, нужно их исполнить и в ответе дать исправленный текст в формате markdown на том же языке.",
+      "replace": true
+    },
+    {
       "name": "🪄 General help",
       "prompt": "",
       "system": "You are an assistant helping a user write more content in a document based on a prompt. Output in markdown format. Do not use links. Do not include literal content from the original document. Output in russian."
