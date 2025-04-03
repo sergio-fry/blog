@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2025-04-02-concurrency.md",
+                "file": "_drafts/2025-04-02-async.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-02-concurrency"
+              "title": "2025-04-02-async"
             }
           },
           {
@@ -181,7 +181,7 @@
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
     "Ruby проблемы.md",
-    "_drafts/2025-04-02-concurrency.md",
+    "_drafts/2025-04-02-async.md",
     "_posts/2025-03-31-ddd-vacabular.md",
     "_posts/2025-03-31.md",
     "_drafts",
