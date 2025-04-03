@@ -8,8 +8,10 @@
       "name": "Local GPT ollama",
       "url": "http://localhost:11434",
       "type": "ollama",
-      "model": "gemma3:12b",
+      "model": "qwen2.5-coder:14b",
       "availableModels": [
+        "qwen2.5-coder:14b",
+        "gemma3:4b",
         "nomic-embed-text:latest",
         "gemma3:12b"
       ]
