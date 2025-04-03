@@ -7,5 +7,14 @@ layout: page
 
 {{ content }}
 
-{}
+
+<div class="post-nav">
+  <div>
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+
+</div>
+
 {% include comments.html %}
