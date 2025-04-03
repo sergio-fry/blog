@@ -166,6 +166,7 @@
   },
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
+    "_sass/no-style-please.scss~",
     "_layouts/post.html~",
     "_sass/highlight.scss",
     "_sass/github.scss",
@@ -179,7 +180,6 @@
     "_site/0020/04/03",
     "_site/0020/04",
     "_site/0020",
-    "_site/2025/03/31/ddd-vacabular.html",
     "_site/Ruby проблемы.md",
     "_posts/2025-03-31-ddd-vacabular.md",
     "_posts/2025-03-31.md",
