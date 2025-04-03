@@ -62,4 +62,6 @@ plugins:
 collections: []
 
 
-highlighter: rouge1
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
