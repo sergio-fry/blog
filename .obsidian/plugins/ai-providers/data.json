@@ -8,7 +8,7 @@
       "name": "Local GPT ollama",
       "url": "http://localhost:11434",
       "type": "ollama",
-      "model": "qwen2.5-coder:14b",
+      "model": "gemma3:4b",
       "availableModels": [
         "qwen2.5-coder:14b",
         "gemma3:4b",
