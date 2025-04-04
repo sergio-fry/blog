@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-04-03-async.md",
+                "file": "_drafts/list posts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-03-async"
+              "title": "list posts"
             }
           }
         ]
@@ -166,20 +166,20 @@
   },
   "active": "183c414f22ec1826",
   "lastOpenFiles": [
+    "_site/2025/04/04/list-posts.html",
+    "_site/2025/04/04/list-dkjnfkd.html",
+    "_posts/2025-04-03-async.md",
     "Gemfile~",
     "_layouts/post.html~",
     "_sass/no-style-please.scss~",
     "_sass/highlight.scss",
     "_sass/github.scss",
-    "_posts/2025-04-03-async.md",
     "Ruby проблемы.md",
     "_posts/2025-04-03.md",
     "_site/2025/04/03/async.html",
     "_site/2025/04/03",
     "_site/2025/04",
     "_site/0020/04/03/async.html",
-    "_site/0020/04/03",
-    "_site/0020/04",
     "_site/Ruby проблемы.md",
     "_posts/2025-03-31-ddd-vacabular.md",
     "_posts/2025-03-31.md",
