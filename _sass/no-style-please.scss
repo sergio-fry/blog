@@ -7,9 +7,15 @@ body {
   line-height: 1.43rem;
 }
 
-code {
-  font-size: 1.0rem;
-  line-height: 1.5rem;
+
+.highlight {
+  overflow-x: auto; /* Включаем горизонтальную прокрутку */
+  max-width: 100%; /* Ограничиваем ширину блока */
+}
+
+pre.highlight {
+  max-width: 640px;
+  //white-space: nowrap; /* Чтобы строка кода не переносилась */
 }
 
 .wrapper {
@@ -17,6 +23,7 @@ code {
   max-width: 640px;
   margin: 4rem auto;
   padding: 0 1rem;
+  overflow-wrap: break-word
 }
 
 h1 { line-height: 2rem; }
