@@ -5,11 +5,12 @@
   "providers": [
     {
       "id": "id-1743616562466",
-      "name": "Local GPT ollama",
+      "name": "Local GPT",
       "url": "http://localhost:11434",
       "type": "ollama",
-      "model": "gemma3:4b",
+      "model": "dolphin-mistral:latest",
       "availableModels": [
+        "dolphin-mistral:latest",
         "qwen2.5-coder:14b",
         "gemma3:4b",
         "nomic-embed-text:latest",
