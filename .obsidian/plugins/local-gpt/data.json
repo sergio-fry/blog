@@ -10,7 +10,7 @@
   "actions": [
     {
       "name": "Playground",
-      "prompt": "",
+      "prompt": "Не повторяй исходный текст и не цитируй его",
       "system": "",
       "replace": false
     },
