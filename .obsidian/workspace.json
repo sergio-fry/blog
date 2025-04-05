@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "646e1e259a5fa628",
+        "id": "33e224603548974c",
         "type": "tabs",
         "children": [
           {
-            "id": "183c414f22ec1826",
+            "id": "e11de1b0c5fdecd7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/list posts.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "list posts"
+              "title": "New tab"
             }
           }
         ]
@@ -164,10 +160,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "183c414f22ec1826",
+  "active": "e11de1b0c5fdecd7",
   "lastOpenFiles": [
-    "_posts/2025-04-03-async.md",
     "_drafts/list posts.md",
+    "_posts/2025-04-03-async.md",
     "_site/2025/04/04/list-posts.html",
     "_site/2025/04/04/list-dkjnfkd.html",
     "Gemfile~",
