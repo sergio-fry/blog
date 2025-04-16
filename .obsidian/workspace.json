@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-04-03-async.md",
+                "file": "other/питание.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-03-async"
+              "title": "питание"
             }
           }
         ]
@@ -166,8 +166,9 @@
   },
   "active": "e11de1b0c5fdecd7",
   "lastOpenFiles": [
-    "_drafts/list posts.md",
+    "other/друзья.md",
     "_posts/2025-04-03-async.md",
+    "_drafts/list posts.md",
     "_site/2025/04/04/list-posts.html",
     "_site/2025/04/04/list-dkjnfkd.html",
     "Gemfile~",
@@ -200,7 +201,6 @@
     "programming/публичные_выступления.md",
     "programming/rspec.md",
     "programming/ruby-news.md",
-    "programming/tests.md",
-    "programming/программирование.md"
+    "programming/tests.md"
   ]
 }
