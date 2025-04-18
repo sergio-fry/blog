@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "other/питание.md",
+                "file": "other/Смысл жизни.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "питание"
+              "title": "Смысл жизни"
             }
           }
         ]
@@ -166,7 +166,12 @@
   },
   "active": "e11de1b0c5fdecd7",
   "lastOpenFiles": [
+    "other/мысли.md",
+    "other/Смысл жизни.md",
+    "other/время.md",
     "other/друзья.md",
+    "index.md",
+    "other/питание.md",
     "_posts/2025-04-03-async.md",
     "_drafts/list posts.md",
     "_site/2025/04/04/list-posts.html",
@@ -195,12 +200,7 @@
     "cv 1.md",
     "_posts/2025-01-06.md",
     "_posts/2024-12-03-ipfs.md",
-    "index.md",
     "_posts/2024-11-29-funny-architecture.md",
-    "_posts/2024-11-18-jekyll.md",
-    "programming/публичные_выступления.md",
-    "programming/rspec.md",
-    "programming/ruby-news.md",
-    "programming/tests.md"
+    "_posts/2024-11-18-jekyll.md"
   ]
 }
