@@ -7,19 +7,13 @@ body {
   line-height: 1.43rem;
 }
 
-
-.highlight {
-  overflow-x: auto; /* Включаем горизонтальную прокрутку */
-  max-width: 100%; /* Ограничиваем ширину блока */
-}
-
-pre.highlight {
-  max-width: 640px;
-  //white-space: nowrap; /* Чтобы строка кода не переносилась */
+div.highlighter-rouge code {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
 }
 
 .wrapper {
-  width: fit-content;
   max-width: 640px;
   margin: 4rem auto;
   padding: 0 1rem;
