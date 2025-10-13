@@ -126,7 +126,7 @@ Enhancement of "Platon" toll collection system
 - Set up automated test execution pipeline
 - Implemented test database build and deployment, enabling reliable test runs
 
-**Key Skills:** Team Leadership, Ruby on Rails, RabbitMQ, Camunda BPM, Microservices, ClickHouse, Docker Swarm, Keycloak, Ruby, Java, Python
+**Key Skills:** Ruby, PostgreSQL, RabbitMQ, Back-End Web Development, Ruby on Rails, RSpec, Test Automation, Continuous Integration (CI), Redis, Docker, SQL, Jira, Object-Oriented Programming (OOP), RESTful WebServices
 
 
 ### Ruby Developer
@@ -160,7 +160,7 @@ Development of backend services and API solutions for SEO platform.
 ### Ruby Developer
 **Social Quantum** | October 2012 - March 2014
 
-Development of core system components and financial solutions for social gaming platform.
+Development of backend for high-load SEO services
 
 **Achievements:**
 - Implementing automated pricing tool (project core)
