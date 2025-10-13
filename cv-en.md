@@ -34,7 +34,16 @@ My passion extends beyond coding to philosophy, sports (football, table tennis, 
 Ruby, Ruby on Rails, AI, RAG, Go, JavaScript, PostgreSQL, GraphQL, Kafka, Docker, Kubernetes, Microservices Architecture
 
 
----
+## Public Speaking & Community Contributions
+
+- RubyRussia 2023/2024/2025 — architecture, test automation, data migrations (speaker)
+- SberMarket RubyMeetup 2023 — writing automated tests with RSpec (speaker)
+- Internal seminars at Balance Platform — code review practices, architectural development (host)
+- HeavyTech podcast host — discussions of trends, architectural patterns, and leadership in IT
+- Creator of technical content on YouTube and Telegram — promoting modern approaches
+- GeekBrains expert & course instructor — contemporary practices and trends in software development
+- Other meetups and community contributions
+
 
 ## Experience
 
