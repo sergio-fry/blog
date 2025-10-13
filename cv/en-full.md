@@ -9,7 +9,7 @@ disable_comments: true
 
 **Senior Software Engineer & Technical Team Lead, Ruby/Rails Expert, Building Scalable Solutions**
 
-[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [(https://t.me/SergeiUdalov](https://t.me/SergeiUdalov), [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
+[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [https://t.me/SergeiUdalov](https://t.me/SergeiUdalov), [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
 
 Experienced software engineer and technical leader with 17+ years in software development, specializing in Ruby on Rails and team leadership since 2017. Currently managing multiple product teams (18+ developers) and delivering high-impact solutions in e-commerce and fintech domains.
@@ -293,17 +293,15 @@ Agile, Scrum, Jira, Team Leadership, Interviewing, Code Review, Technical Mentor
 
 ## Education
 
-**Moscow Aviation Institute (MAI)**
-Faculty of Applied Mathematics and Physics
-Specialization: Mathematician, Systems Programmer
-Graduated: 2008
+**Moscow Aviation Institute (National Research University), 2008**
+Mathematics and Computer Science, Master's degree
 
 
 ## Contact Information
 
-- **Email:** sergei.udalov@gmail.com
-- **Telegram:** @SergeiUdalov
-- **LinkedIn:** linkedin.com/in/sergeiudalov
-- **GitHub:** github.com/sergio-fry
-- **YouTube:** youtube.com/@SergeiUdalov
+- **Email:** [sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com)
+- **Telegram:** [@SergeiUdalov](https://t.me/SergeiUdalov)
+- **LinkedIn:** [linkedin.com/in/sergeiudalov](https://www.linkedin.com/in/sergeiudalov/)
+- **GitHub:** [github.com/sergio-fry](https://github.com/sergio-fry)
+- **YouTube:** [youtube.com/@SergeiUdalov](https://youtube.com/@SergeiUdalov)
 - **Location:** Moscow, Russia
