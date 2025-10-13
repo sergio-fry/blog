@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 disable_comments: true
 ---
 
