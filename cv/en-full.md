@@ -7,9 +7,9 @@ disable_comments: true
 
 # Sergei Udalov
 
-**Senior Software Engineer & Technical Team Lead | Ruby/Rails Expert | Building Scalable Solutions**
+**Senior Software Engineer & Technical Team Lead, Ruby/Rails Expert, Building Scalable Solutions**
 
-Contact: sergei.udalov@gmail.com, https://t.me/SergeiUdalov
+[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [(https://t.me/SergeiUdalov](https://t.me/SergeiUdalov)
 
 
 Experienced software engineer and technical leader with 17+ years in software development, specializing in Ruby on Rails and team leadership since 2017. Currently managing multiple product teams (18+ developers) and delivering high-impact solutions in e-commerce and fintech domains.
@@ -270,25 +270,25 @@ Websites modification and development of new web services.
 ## Skills
 
 ### Programming Languages
-Ruby, JavaScript, Go, Kotlin, Java, Python
+Ruby, Go, JavaScript, Kotlin, Java, SQL, Python
 
 ### Frameworks & Libraries
-Ruby on Rails, Sinatra, Hanami, Roda, Spring Boot
+Ruby on Rails, RSpec, GraphQL, Sinatra, Hanami, Spring Boot, Symfony, Prototype, jQuery, Ajax
 
 ### Databases
-PostgreSQL, ClickHouse, Redis, SQLite, MongoDB
+PostgreSQL, ClickHouse, Redis, MySQL, SQLite, MongoDB, MSSQL, Access
 
 ### Testing & Quality
-RSpec, Capybara, Cucumber, Selenium, CI/CD, TDD
+RSpec, Capybara, Cucumber, Selenium, PHPUnit, CI/CD, TDD, Test Automation
 
 ### DevOps & Infrastructure
-Docker, Kubernetes, Kafka, RabbitMQ, GitLab CI, GitHub Actions, Prometheus, Grafana, ELK Stack
+Docker, Kubernetes, GitLab CI, GitHub Actions, Kafka, RabbitMQ, Prometheus, Grafana, ELK Stack, Subversion, Git, Capistrano, Linux, Redis, Passenger
 
 ### Architecture & Design
-Microservices, Event Streaming, REST API, GraphQL, Domain-Driven Design (DDD), Clean Architecture
+Microservices Architecture, Event Streaming, REST API, GraphQL, Domain-Driven Design (DDD), Unified Modeling Language (UML), Clean Architecture, CI tools
 
-### Project Management
-Agile, Scrum, Jira, Team Leadership, Code Review, Technical Mentoring
+### Project Management & Team Leadership
+Agile, Scrum, Jira, Team Leadership, Interviewing, Code Review, Technical Mentoring, Team Building, Process Improvement
 
 ---
 
