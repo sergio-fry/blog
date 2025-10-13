@@ -290,7 +290,6 @@ Microservices Architecture, Event Streaming, REST API, GraphQL, Domain-Driven De
 ### Project Management & Team Leadership
 Agile, Scrum, Jira, Team Leadership, Interviewing, Code Review, Technical Mentoring, Team Building, Process Improvement
 
----
 
 ## Education
 
@@ -299,24 +298,6 @@ Faculty of Applied Mathematics and Physics
 Specialization: Mathematician, Systems Programmer
 Graduated: 2008
 
----
-
-## Additional Information
-
-**Languages:** English (Professional working proficiency), Russian (Native)
-
-**Work Preferences:** Remote work preferred
-
-**Community Involvement:**
-- YouTube channel (@SergeiUdalov) - Technology discussions and tutorials
-- Telegram channel (@UdalovX) - Industry insights and expert interviews
-- Podcast host (HeavyTech) - Technology trends and expert discussions
-- Conference speaker at RubyRussia, TechLead Conf and local meetups
-- Course instructor at GeekBrains
-
-**Personal Interests:** Technology discussions, philosophy, sports (football, table tennis, badminton, volleyball, snowboarding), music (guitar, blues, rock'n'roll)
-
----
 
 ## Contact Information
 
