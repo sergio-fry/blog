@@ -7,9 +7,9 @@ disable_comments: true
 
 # Sergei Udalov
 
-**Senior Ruby Developer | Remote Work Specialist**
+**Senior Ruby Developer, Remote Work Specialist**
 
-[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com) | [@SergeiUdalov](https://t.me/SergeiUdalov)
+[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [(https://t.me/SergeiUdalov](https://t.me/SergeiUdalov), [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
 ---
 
@@ -114,35 +114,12 @@ Experienced Ruby developer with 17+ years in software development, specializing 
 - Integrated QIWI payment system
 - **Tech Stack:** Ruby, Ruby on Rails, Go, Sidekiq, RPC, PostgreSQL, Redis
 
-### Ruby Developer
-**Social Quantum** | October 2012 - March 2014
-- Developed core system components for social gaming platform
-- Implemented automated pricing tool (project core)
-- Built payment gateway via QIWI system
-- Developed financial reports generators
-- **Tech Stack:** Ruby, Ruby on Rails, PostgreSQL, PGQ, RPC, REST, Memcache
 
-### Ruby Developer
-**Undev.ru** | August 2011 - October 2012
-- Developed internal API service for payment acceptance
-- Integrated PayPal, PerfectMoney and other payment systems
-- Built e-commerce website for VPN provider
-- **Tech Stack:** Ruby, Ruby on Rails, E-Payments, MsSQL, Celluloid, Memcache
+### Full Experience
 
-### Ruby Developer
-**June Marketing** | December 2009 - August 2011
-- Developed more than 10 e-commerce websites
-- Built CMS based on Ruby on Rails with dynamic content types
-- Set up automated backup and monitoring systems
-- **Tech Stack:** Ruby, Ruby on Rails, JavaScript, jQuery, PostgreSQL, RSpec
+My full career history is too extensive to list here. If you are interested in a detailed overview of my experience, or have any doubts about my skills, please check my LinkedIn profile, where you can also find recommendations from colleagues:
 
-### Ruby Developer
-**Sportweek** | December 2007 - October 2008
-- Developed sports news portal
-- Built online text broadcasts with ajax-chat functionality
-- Implemented animated photo gallery
-- Configured Linux server with Passenger and Capistrano
-- **Tech Stack:** Ruby on Rails, JavaScript, Ajax, PostgreSQL, Linux, Capistrano
+[linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
 ---
 

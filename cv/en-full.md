@@ -9,7 +9,7 @@ disable_comments: true
 
 **Senior Software Engineer & Technical Team Lead, Ruby/Rails Expert, Building Scalable Solutions**
 
-[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [(https://t.me/SergeiUdalov](https://t.me/SergeiUdalov)
+[sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [(https://t.me/SergeiUdalov](https://t.me/SergeiUdalov), [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
 
 Experienced software engineer and technical leader with 17+ years in software development, specializing in Ruby on Rails and team leadership since 2017. Currently managing multiple product teams (18+ developers) and delivering high-impact solutions in e-commerce and fintech domains.
