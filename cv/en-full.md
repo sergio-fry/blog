@@ -38,23 +38,8 @@ Ruby, Ruby on Rails, AI, RAG, Go, JavaScript, PostgreSQL, GraphQL, Kafka, Docker
 
 ## Experience
 
-### Senior Software Engineer & Technical Team Lead
-**Raiffeisen Bank** | July 2025 - Present
-
-Leading technical initiatives and development teams in building scalable banking solutions. Responsible for architectural decisions, process improvements, and team development.
-
-**Achievements:**
-- Implemented unified technical roadmap management process across teams
-- Introduced feature leading practice to improve cross-team collaboration
-- Established regular 1-on-1 meeting practices for team development
-- Developed multiple internal CI tools to streamline development workflows
-- Designed comprehensive observability architecture solution for POS terminals
-
-**Key Skills:** Team Leadership, Java, Kotlin, Apache Kafka, PostgreSQL, Gitlab, Kubernetes
-
-
 ### Product Team Lead
-**Samokat.tech (ecom.tech)** | April 2023 - July 2025
+**Samokat.tech (ecom.tech)** | April 2023 - Present
 
 Leading three development teams (18+ developers) in building scalable e-commerce solutions. Responsible for architectural decisions, code reviews, hiring, and team development.
 
@@ -252,7 +237,7 @@ Development of online services.
 
 
 ### Developer Intern
-**Федерация тенниса России** | February 2006 - November 2006
+**Russian Tennis Federation** | February 2006 - November 2006
 
 Websites modification and development of new web services.
 

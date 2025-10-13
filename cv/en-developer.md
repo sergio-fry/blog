@@ -94,7 +94,7 @@ Experienced Ruby developer with 17+ years in software development, specializing 
 
 ### Full Experience
 
-My full career history is too extensive to list here. If you are interested in a detailed overview of my experience, or have any doubts about my skills, please check my LinkedIn profile, where you can also find recommendations from colleagues:
+If you are interested in a detailed overview of my experience and skills, please see my LinkedIn profile, where you can also find recommendations from colleagues:
 
 [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
