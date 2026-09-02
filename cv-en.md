@@ -7,36 +7,31 @@ disable_comments: true
 
 # Sergei Udalov
 
-**Senior Software Engineer & Technical Team Lead, Ruby/Rails Expert, Building Scalable Solutions**
+**Technical Lead | High-Scale Backend Systems | Ruby on Rails**
 
 [sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [https://t.me/SergeiUdalov](https://t.me/SergeiUdalov), [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
 
-Experienced software engineer and technical leader with 17+ years in software development, specializing in Ruby on Rails and team leadership since 2017. Currently managing multiple product teams (18+ developers) and delivering high-impact solutions in e-commerce and fintech domains.
+I have more than 20 years of experience building backend applications and, since 2017, leading developers and cross-functional teams comprising more than 20 engineers and analysts. I have worked on core e-commerce and fintech systems at Dixy, Samokat, Megamarket, and Raiffeisen Bank.
 
-I have successfully led development of innovative platforms including ultra-fast delivery systems (Samokat), large-scale marketplaces (Megamarket), and comprehensive financial services ecosystems. My expertise spans microservices architecture, AI/RAG implementations, and scalable distributed systems using Ruby, Go, JavaScript, and PostgreSQL.
-
-As a technical leader, I focus on building high-performing teams through mentoring, implementing Domain-Driven Design principles, and establishing robust development processes. I have mentored 5+ developers to promotions and prepared successors for leadership roles. My teams consistently deliver complex solutions while maintaining code quality and system reliability.
-
-Beyond technical leadership, I am actively involved in the developer community as a speaker at RubyRussia conferences (2023/2024/2025), host of the HeavyTech podcast, and content creator on YouTube and Telegram. I also served as a course instructor at GeekBrains, sharing knowledge about modern development practices and technology trends.
-
-My passion extends beyond coding to philosophy, sports (football, table tennis, badminton, volleyball, snowboarding), and music. I believe in continuous learning and enjoy discussing technology trends, architectural decisions, and team development strategies with fellow professionals.
+My primary focus is the architecture, performance, and reliability of distributed systems, microservice integrations, technical debt management, and engineering process development. I have launched products and teams from scratch, mentored engineers, and improved the performance of critical workflows by up to 10x.
 
 
 **What I do:**
-- Lead cross-functional teams in building scalable web applications
-- Architect microservices and distributed systems
-- Drive technical excellence through code reviews and mentoring
-- Implement best practices and development processes
+- Design and evolve high-load backend systems
+- Improve service performance, reliability, and observability
+- Drive architectural decisions and manage technical debt
+- Grow teams and improve engineering processes
 
 
 **Technical Focus:**
-Ruby, Ruby on Rails, AI, RAG, Go, JavaScript, PostgreSQL, GraphQL, Kafka, Docker, Kubernetes, Microservices Architecture
+Ruby, Ruby on Rails, PostgreSQL, ClickHouse, Kafka, Redis, microservices and event-driven architecture, DDD, C4, Docker, Kubernetes, GitLab CI/CD, OpenTelemetry, Jaeger
 
 
 ## Public Speaking & Community Contributions
 
-- RubyRussia 2023/2024/2025 — architecture, test automation, data migrations (speaker)
+- RubyRussia 2023/2024/2025 — architecture, test automation, database migrations
+- TechLead Conf 2025 — software architecture
 - SberMarket RubyMeetup 2023 — writing automated tests with RSpec (speaker)
 - Internal seminars at Balance Platform — code review practices, architectural development (host)
 - HeavyTech podcast host — discussions of trends, architectural patterns, and leadership in IT
@@ -47,10 +42,40 @@ Ruby, Ruby on Rails, AI, RAG, Go, JavaScript, PostgreSQL, GraphQL, Kafka, Docker
 
 ## Experience
 
-### Product Team Lead
-**Samokat.tech (ecom.tech)** | April 2023 - Present
+### Lead Backend Engineer
+**Dixy** | November 2025 - Present
 
-Leading three development teams (18+ developers) in building scalable e-commerce solutions. Responsible for architectural decisions, code reviews, hiring, and team development.
+Develop core backend components and integrations for the Dixy mobile app as part of its systems engineering team. Drive cross-cutting architectural changes, performance optimization, and improvements to development and delivery processes.
+
+**Achievements:**
+- Improved inventory synchronization performance by 10x, reducing execution time to two minutes through a migration from ClickHouse to PostgreSQL, batch integration with API Hub, and parallel incremental data processing
+- Changed GitLab CI pipelines from sequential to parallel execution, reducing bottlenecks between developers
+- Built DevContainers and supporting scripts to standardize project setup and streamline developer onboarding
+- Established consistent code review criteria that distinguish required changes from recommendations
+- Implemented an adapter layer for routing notifications across Telegram, Mattermost, and other channels
+
+**Key Skills:** Ruby, Ruby on Rails, PostgreSQL, ClickHouse, Apache Kafka, Redis, Docker, Kubernetes, S3, GitLab CI/CD, Microservices Architecture, Software Architecture, Backend Development, API Integration, Performance Optimization, Parallel Data Processing, Code Review
+
+### Technical Lead
+**Raiffeisen Bank** | July 2025 - September 2025
+
+Led technical development across three cross-functional teams comprising more than 20 engineers and analysts within a single unit. Owned architectural decisions, the technical roadmap and backlog, technical debt management, and employee development.
+
+**Achievements:**
+- Updated C4 architecture diagrams for three products, closing documentation gaps and creating a coherent architectural view
+- Established a unified approach to technical roadmapping across three teams
+- Introduced a new technical debt management process
+- Oversaw the migration of one product to new infrastructure, bringing the initiative to 80% completion during my tenure
+- Established a regular one-on-one process with team members
+- Prepared the promotion case and initiated a promotion for a team member
+- Presented a talk on database migrations at RubyRussia 2025
+
+**Key Skills:** Technical Leadership, Multi-Team Leadership, Employee Development, Software Architecture, Microservices Architecture, C4, Technical Roadmapping, Technical Debt Management, Observability, OpenTelemetry, Jaeger, Kubernetes, GitLab CI/CD, Java, Kotlin, Apache Kafka, PostgreSQL, Jira, Technical Documentation Automation
+
+### Product Team Lead
+**Samokat.tech (ecom.tech)** | April 2023 - June 2025
+
+Led three development teams comprising more than 18 developers, building scalable e-commerce solutions. Owned architectural decisions, code reviews, hiring, and team development.
 
 **Achievements:**
 - Successfully launched 3 new products to production
@@ -59,7 +84,7 @@ Leading three development teams (18+ developers) in building scalable e-commerce
 - Established end-to-end development processes for new teams
 - Implemented technical debt management processes
 - Mentored 5 developers for promotions, including preparing a successor team lead
-- Delivered presentations at RubyRussia 2023/2024 and SberMarket RubyMeetup 2023
+- Presented talks at RubyRussia 2023/2024 and TechLead Conf 2025
 
 **Key Skills:** Team Leadership, Public Speaking, Ruby, PostgreSQL, Apache Kafka, Back-End Web Development, Ruby on Rails, RSpec, Software Architecture, Unified Modeling Language (UML), Interviewing, Test Automation, Continuous Integration (CI), Redis, Docker, SQL, Git, Jira, Object-Oriented Programming (OOP), GraphQL, RESTful WebServices
 
@@ -288,7 +313,8 @@ Agile, Scrum, Jira, Team Leadership, Interviewing, Code Review, Technical Mentor
 ## Education
 
 **Moscow Aviation Institute (National Research University), 2008**
-Mathematics and Computer Science, Master's degree
+Five-year Specialist degree in Applied Mathematics and Physics (comparable to a Master's degree)  
+Qualification: Mathematician, Systems Programmer
 
 
 ## Contact Information
