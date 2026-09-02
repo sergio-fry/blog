@@ -7,7 +7,7 @@ disable_comments: true
 
 # Sergei Udalov
 
-**Technical Lead | High-Scale Backend Systems | Ruby on Rails**
+**Technical Lead · High-Scale Backend Systems · Ruby on Rails**
 
 [sergei.udalov@gmail.com](mailto:sergei.udalov@gmail.com), [https://t.me/SergeiUdalov](https://t.me/SergeiUdalov), [linkedin.com/in/sergeiudalov/](https://www.linkedin.com/in/sergeiudalov/)
 
