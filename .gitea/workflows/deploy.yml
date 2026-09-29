@@ -11,22 +11,21 @@ jobs:
       image: ruby:3.3.6
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        run: |
+          apt-get update -qq && apt-get install -y -qq git openssh-client rsync >/dev/null
+          mkdir -p /root/.ssh
+          echo "${{ secrets.BLOG_DEPLOY_KEY }}" > /root/.ssh/deploy_key
+          chmod 600 /root/.ssh/deploy_key
+          export GIT_SSH_COMMAND="ssh -i /root/.ssh/deploy_key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+          git clone --depth 1 --branch "$GITHUB_REF_NAME" "ssh://git@gitea:2222/sergei/blog.git" .
 
       - name: Build Jekyll
         run: |
           bundle install --path vendor/bundle --quiet
           bundle exec jekyll build
 
-      - name: Setup deploy key
-        run: |
-          apt-get update -qq && apt-get install -y -qq rsync openssh-client >/dev/null
-          mkdir -p /root/.ssh
-          echo "${{ secrets.BLOG_DEPLOY_KEY }}" > /root/.ssh/deploy_key
-          chmod 600 /root/.ssh/deploy_key
-
       - name: Deploy to blog host
         run: |
           rsync -az --delete \
-            -e "ssh -i /root/.ssh/deploy_key -o StrictHostKeyChecking=no" \
+            -e "ssh -i /root/.ssh/deploy_key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
             _site/ root@192.168.88.85:/opt/blog/data/
