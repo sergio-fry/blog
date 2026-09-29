@@ -1,0 +1,32 @@
+name: deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container:
+      image: ruby:3.3.6
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Jekyll
+        run: |
+          bundle install --path vendor/bundle --quiet
+          bundle exec jekyll build
+
+      - name: Setup deploy key
+        run: |
+          apt-get update -qq && apt-get install -y -qq rsync openssh-client >/dev/null
+          mkdir -p /root/.ssh
+          echo "${{ secrets.BLOG_DEPLOY_KEY }}" > /root/.ssh/deploy_key
+          chmod 600 /root/.ssh/deploy_key
+
+      - name: Deploy to blog host
+        run: |
+          rsync -az --delete \
+            -e "ssh -i /root/.ssh/deploy_key -o StrictHostKeyChecking=no" \
+            _site/ root@192.168.88.85:/opt/blog/data/
